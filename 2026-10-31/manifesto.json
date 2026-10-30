@@ -1,0 +1,71 @@
+{
+ "data": "2026-10-31",
+ "posts": [
+  {
+   "post": 1,
+   "horario": "12:00",
+   "cta": "Saídas de praia da Shopee pro verão 🌊",
+   "fotos": [
+    {
+     "arquivo": "s1-1.jpg",
+     "produto": "23197986891",
+     "codigo": ""
+    },
+    {
+     "arquivo": "s1-2.jpg",
+     "produto": "19597242519",
+     "codigo": ""
+    },
+    {
+     "arquivo": "s1-3.jpg",
+     "produto": "22398174027",
+     "codigo": ""
+    }
+   ]
+  },
+  {
+   "post": 2,
+   "horario": "18:00",
+   "cta": "Conjuntinhos pro sábado à noite ✨",
+   "fotos": [
+    {
+     "arquivo": "s2-1.jpg",
+     "produto": "22893209210",
+     "codigo": ""
+    },
+    {
+     "arquivo": "s2-2.jpg",
+     "produto": "22097363803",
+     "codigo": ""
+    },
+    {
+     "arquivo": "s2-3.jpg",
+     "produto": "55805920423",
+     "codigo": ""
+    }
+   ]
+  },
+  {
+   "post": 3,
+   "horario": "20:30",
+   "cta": "Looks pro almoço de família no domingo 🌿",
+   "fotos": [
+    {
+     "arquivo": "s3-1.jpg",
+     "produto": "18199220792",
+     "codigo": ""
+    },
+    {
+     "arquivo": "s3-2.jpg",
+     "produto": "19699551655",
+     "codigo": ""
+    },
+    {
+     "arquivo": "s3-3.jpg",
+     "produto": "58251611078",
+     "codigo": ""
+    }
+   ]
+  }
+ ]
+}
