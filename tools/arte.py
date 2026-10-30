@@ -16,7 +16,9 @@ AQUI = os.path.dirname(os.path.abspath(__file__))
 FONTE = os.path.join(AQUI, "PatrickHand-Regular.ttf")
 EMOJI_DIR = os.path.join(AQUI, "emoji")  # PNGs Twemoji 64px, nome = codepoints em hex
 
-EMOJI_RE = re.compile("[\U0001F000-\U0001FAFF☀-➿️‍]+")
+H_TOPO = 0.15  # código a 15% da altura (fora da área da barra de pesquisa do TikTok)
+
+EMOJI_RE =re.compile("[\U0001F000-\U0001FAFF☀-➿️‍]+")
 
 
 def fmt_codigo(c):
@@ -40,7 +42,8 @@ def desenha_codigo(img, codigo):
     W = img.width
     f = ImageFont.truetype(FONTE, round(W * 0.042))
     txt = fmt_codigo(codigo)
-    d.text((W - round(W * 0.031), round(W * 0.031)), txt, font=f, fill=(17, 17, 17), anchor="ra")
+    # Abaixo da barra superior do TikTok (lupa/pesquisa fica no topo direito).
+    d.text((W - round(W * 0.042), round(H_TOPO * img.height)), txt, font=f, fill=(17, 17, 17), anchor="ra")
 
 
 def desenha_cta(img, cta):
