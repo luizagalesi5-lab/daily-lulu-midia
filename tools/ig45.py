@@ -12,7 +12,7 @@ import json, os, subprocess, sys, tempfile
 from PIL import Image
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
-TOPO = {"curta": 0.10, "midi": 0.13, "longa": 0.165}  # início da janela (fração da altura)
+TOPO = {"curta": 0.105, "midi": 0.105, "longa": 0.105}  # padrão da Luiza: margem pequena acima da cabeça, pés cortados  # início da janela (fração da altura)
 
 
 def main():
@@ -31,7 +31,7 @@ def main():
             im = im.crop((0, y0, W, y0 + h)).resize((1080, 1350), Image.LANCZOS)
             tmp = tempfile.mktemp(suffix=".jpg"); im.save(tmp, quality=95)
             cmd = ["python3", os.path.join(AQUI, "arte.py"), "capa" if i == 1 else "foto", tmp,
-                   os.path.join(saida, f"igq{k}.jpg"), "--codigo", f["codigo"]]
+                   os.path.join(saida, f"igr{k}.jpg"), "--codigo", f["codigo"], "--ig"]
             if i == 1:
                 cmd += ["--cta", p["cta"]]
             subprocess.run(cmd, check=True); os.remove(tmp)

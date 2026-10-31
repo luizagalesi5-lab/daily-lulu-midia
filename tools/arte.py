@@ -37,16 +37,16 @@ def emoji_png(seq):
     return None
 
 
-def desenha_codigo(img, codigo):
+def desenha_codigo(img, codigo, y=None, tam=0.042):
     d = ImageDraw.Draw(img)
     W = img.width
-    f = ImageFont.truetype(FONTE, round(W * 0.042))
+    f = ImageFont.truetype(FONTE, round(W * tam))
     txt = fmt_codigo(codigo)
     # Abaixo da barra superior do TikTok (lupa/pesquisa fica no topo direito).
-    d.text((W - round(W * 0.042), round(H_TOPO * img.height)), txt, font=f, fill=(17, 17, 17), anchor="ra")
+    d.text((W - round(W * 0.042), round((H_TOPO if y is None else y) * img.height)), txt, font=f, fill=(17, 17, 17), anchor="ra")
 
 
-def desenha_cta(img, cta):
+def desenha_cta(img, cta, y=0.66):
     W, H = img.size
     f = ImageFont.truetype(FONTE, round(W * 0.047))
     partes = [(m.start(), m.end()) for m in EMOJI_RE.finditer(cta)]
@@ -64,7 +64,7 @@ def desenha_cta(img, cta):
         larg += f.getlength(s) if tipo == "t" else tam_emoji
     pad_x, alt = round(W * 0.026), round(W * 0.076)
     bx0 = (W - larg) / 2 - pad_x
-    by0 = round(H * 0.66)
+    by0 = round(H * y)
     caixa = Image.new("RGBA", img.size, (0, 0, 0, 0))
     dc = ImageDraw.Draw(caixa)
     dc.rounded_rectangle([bx0, by0, bx0 + larg + 2 * pad_x, by0 + alt], radius=round(W * 0.016), fill=(255, 255, 255, 255))
@@ -90,14 +90,15 @@ def main():
     ap.add_argument("saida")
     ap.add_argument("--cta")
     ap.add_argument("--codigo")
+    ap.add_argument("--ig", action="store_true", help="padrão Instagram 4:5: código no alto (6%%), maior; CTA a 72%%")
     a = ap.parse_args()
     img = Image.open(a.entrada).convert("RGBA")
     if a.modo == "capa":
         if not a.cta:
             raise SystemExit("A capa precisa de --cta")
-        desenha_cta(img, a.cta)
+        desenha_cta(img, a.cta, 0.72 if a.ig else 0.66)
     if a.modo in ("capa", "foto") and a.codigo:
-        desenha_codigo(img, a.codigo)
+        desenha_codigo(img, a.codigo, 0.045, 0.05) if a.ig else desenha_codigo(img, a.codigo)
     img.convert("RGB").save(a.saida, "JPEG", quality=92)
 
 
