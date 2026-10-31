@@ -1,5 +1,71 @@
-{"data":"2026-11-01","posts":[
-{"post":1,"horario":"12:00","cta":"Vestidos midi da Shopee pro domingo 💛","fotos":[{"arquivo":"s1-1.jpg","produto":"22498946077","codigo":""},{"arquivo":"s1-2.jpg","produto":"23998307001","codigo":""},{"arquivo":"s1-3.jpg","produto":"20327980436","codigo":""}]},
-{"post":2,"horario":"18:00","cta":"Looks de trabalho pra segunda 💼","fotos":[{"arquivo":"s2-1.jpg","produto":"58268412187","codigo":""},{"arquivo":"s2-2.jpg","produto":"22393934624","codigo":""},{"arquivo":"s2-3.jpg","produto":"22393937900","codigo":""}]},
-{"post":3,"horario":"20:30","cta":"Blusas da Shopee que parecem de marca ✨","fotos":[{"arquivo":"s3-1.jpg","produto":"52660324546","codigo":""},{"arquivo":"s3-2.jpg","produto":"58206971837","codigo":""},{"arquivo":"s3-3.jpg","produto":"57566004435","codigo":""}]}
-]}
+{
+ "data": "2026-11-01",
+ "posts": [
+  {
+   "post": 1,
+   "horario": "12:00",
+   "cta": "Vestidos midi da Shopee pro domingo 💛",
+   "fotos": [
+    {
+     "arquivo": "s1-1.jpg",
+     "produto": "22498946077",
+     "codigo": "BZVBFSDPN"
+    },
+    {
+     "arquivo": "s1-2.jpg",
+     "produto": "23998307001",
+     "codigo": "CCVTVXMQG"
+    },
+    {
+     "arquivo": "s1-3.jpg",
+     "produto": "20327980436",
+     "codigo": "AJNNNSLPT"
+    }
+   ]
+  },
+  {
+   "post": 2,
+   "horario": "18:00",
+   "cta": "Looks de trabalho pra segunda 💼",
+   "fotos": [
+    {
+     "arquivo": "s2-1.jpg",
+     "produto": "58268412187",
+     "codigo": "AETPSJDUC"
+    },
+    {
+     "arquivo": "s2-2.jpg",
+     "produto": "22393934624",
+     "codigo": "AQPEWQBTF"
+    },
+    {
+     "arquivo": "s2-3.jpg",
+     "produto": "22393937900",
+     "codigo": "BFBXWGZBZ"
+    }
+   ]
+  },
+  {
+   "post": 3,
+   "horario": "20:30",
+   "cta": "Blusas da Shopee que parecem de marca ✨",
+   "fotos": [
+    {
+     "arquivo": "s3-1.jpg",
+     "produto": "52660324546",
+     "codigo": "APRBXMKWK"
+    },
+    {
+     "arquivo": "s3-2.jpg",
+     "produto": "58206971837",
+     "codigo": "BRCVLQSDJ"
+    },
+    {
+     "arquivo": "s3-3.jpg",
+     "produto": "57566004435",
+     "codigo": "BGZXXWXLM"
+    }
+   ]
+  }
+ ]
+}
