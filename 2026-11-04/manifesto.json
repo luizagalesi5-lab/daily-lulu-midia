@@ -1,23 +1,107 @@
 {
  "data": "2026-11-04",
  "posts": [
-  {"post": 1, "horario": "12:00", "cta": "Blusinhas da Shopee pro verão ☀️",
+  {
+   "post": 1,
+   "horario": "12:00",
+   "cta": "Blusinhas da Shopee pro verão ☀️",
    "fotos": [
-    {"arquivo": "p1a.jpg", "produto": "23293485592", "codigo": ""},
-    {"arquivo": "p1b.jpg", "produto": "45316556940", "codigo": ""},
-    {"arquivo": "p1c.jpg", "produto": "23693851064", "codigo": ""}]},
-  {"post": 2, "horario": "18:00", "cta": "Qual você escolheria? 1, 2 ou 3 👀",
+    {
+     "arquivo": "p1a.jpg",
+     "produto": "23293485592",
+     "codigo": "ADXPHUAWZ"
+    },
+    {
+     "arquivo": "p1b.jpg",
+     "produto": "45316556940",
+     "codigo": "APRLJRJYQ"
+    },
+    {
+     "arquivo": "p1c.jpg",
+     "produto": "23693851064",
+     "codigo": "ALXUHWKVD"
+    }
+   ]
+  },
+  {
+   "post": 2,
+   "horario": "18:00",
+   "cta": "Qual você escolheria? 1, 2 ou 3 👀",
    "fotos": [
-    {"arquivo": "p2a.jpg", "produto": "22397756294", "codigo": "", "num": "1"},
-    {"arquivo": "p2a.jpg", "produto": "22397756294", "codigo": "", "num": "1", "zoom": [0.45, 0.44, 0.45]},
-    {"arquivo": "p2b.jpg", "produto": "22693527664", "codigo": "", "num": "2"},
-    {"arquivo": "p2b.jpg", "produto": "22693527664", "codigo": "", "num": "2", "zoom": [0.53, 0.44, 0.45]},
-    {"arquivo": "p2c.jpg", "produto": "22898567954", "codigo": "", "num": "3"},
-    {"arquivo": "p2c.jpg", "produto": "22898567954", "codigo": "", "num": "3", "zoom": [0.52, 0.46, 0.45]}]},
-  {"post": 3, "horario": "20:30", "cta": "1 kit da Shopee, 3 looks ✨",
+    {
+     "arquivo": "p2a.jpg",
+     "produto": "22397756294",
+     "codigo": "BUUQMKTMP",
+     "num": "1",
+     "zoom": [
+      0.45,
+      0.44,
+      0.45
+     ]
+    },
+    {
+     "arquivo": "p2a.jpg",
+     "produto": "22397756294",
+     "codigo": "BUUQMKTMP",
+     "num": "1"
+    },
+    {
+     "arquivo": "p2b.jpg",
+     "produto": "22693527664",
+     "codigo": "BDHBSBDHA",
+     "num": "2"
+    },
+    {
+     "arquivo": "p2b.jpg",
+     "produto": "22693527664",
+     "codigo": "BDHBSBDHA",
+     "num": "2",
+     "zoom": [
+      0.53,
+      0.44,
+      0.45
+     ]
+    },
+    {
+     "arquivo": "p2c.jpg",
+     "produto": "22898567954",
+     "codigo": "APRLJRJRX",
+     "num": "3"
+    },
+    {
+     "arquivo": "p2c.jpg",
+     "produto": "22898567954",
+     "codigo": "APRLJRJRX",
+     "num": "3",
+     "zoom": [
+      0.52,
+      0.46,
+      0.45
+     ]
+    }
+   ]
+  },
+  {
+   "post": 3,
+   "horario": "20:30",
+   "cta": "1 kit da Shopee, 3 looks ✨",
    "fotos": [
-    {"arquivo": "p3a.jpg", "produto": "53314415260", "codigo": ""},
-    {"arquivo": "p3b.jpg", "produto": "53314415260", "codigo": ""},
-    {"arquivo": "p3c.jpg", "produto": "53314415260", "codigo": ""}]}
+    {
+     "arquivo": "p3a.jpg",
+     "produto": "53314415260",
+     "codigo": "BGDESTTWQ"
+    },
+    {
+     "arquivo": "p3b.jpg",
+     "produto": "53314415260",
+     "codigo": "BGDESTTWQ"
+    },
+    {
+     "arquivo": "p3c.jpg",
+     "produto": "53314415260",
+     "codigo": "BGDESTTWQ"
+    }
+   ]
+  }
  ]
 }

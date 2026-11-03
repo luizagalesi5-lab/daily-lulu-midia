@@ -35,6 +35,7 @@ for p in m["posts"]:
                 x0 = min(max(0, round(W * cx - bw / 2)), W - bw); y0 = min(max(0, round(H * cy - bh / 2)), H - bh)
                 im = im.crop((x0, y0, x0 + bw, y0 + bh)).resize((w, h), Image.LANCZOS).convert("RGBA")
                 if f.get("num"): arte.desenha_num(im, f["num"])
+                if i == 1: arte.desenha_cta(im, p["cta"], 0.66)
                 if f.get("codigo"): arte.desenha_codigo_grande(im, f["codigo"], 0.80 if h > 1500 else 0.82)
                 im.convert("RGB").save(os.path.join(out, nome + ".jpg"), quality=92)
             continue
