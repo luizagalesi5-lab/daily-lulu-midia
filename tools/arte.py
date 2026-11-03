@@ -46,6 +46,25 @@ def desenha_codigo(img, codigo, y=None, tam=0.042):
     d.text((W - round(W * 0.042), round((H_TOPO if y is None else y) * img.height)), txt, font=f, fill=(17, 17, 17), anchor="ra")
 
 
+def desenha_num(img, num):
+    """Número da peça (1, 2, 3) num círculo branco no alto à esquerda."""
+    W, H = img.size; r = round(W * 0.055); cx, cy = round(W * 0.09), round(H * 0.17)
+    cam = Image.new("RGBA", img.size, (0, 0, 0, 0)); dc = ImageDraw.Draw(cam)
+    dc.ellipse([cx - r, cy - r, cx + r, cy + r], fill=(255, 255, 255, 255)); img.alpha_composite(cam)
+    f = ImageFont.truetype(FONTE, round(r * 1.5))
+    ImageDraw.Draw(img).text((cx, cy + 2), str(num), font=f, fill=(214, 51, 108), anchor="mm")
+
+
+def desenha_codigo_grande(img, codigo, y=0.80):
+    """Código da Shopee em destaque (slide de detalhe), caixa branca centralizada."""
+    W, H = img.size; txt = "Código Shopee: " + fmt_codigo(codigo)
+    f = ImageFont.truetype(FONTE, round(W * 0.06)); larg = f.getlength(txt)
+    pad, alt = round(W * 0.035), round(W * 0.095); bx0 = (W - larg) / 2 - pad; by0 = round(H * y)
+    cam = Image.new("RGBA", img.size, (0, 0, 0, 0)); dc = ImageDraw.Draw(cam)
+    dc.rounded_rectangle([bx0, by0, bx0 + larg + 2 * pad, by0 + alt], radius=round(W * 0.02), fill=(255, 255, 255, 240)); img.alpha_composite(cam)
+    ImageDraw.Draw(img).text((W / 2, by0 + alt / 2 + 2), txt, font=f, fill=(17, 17, 17), anchor="mm")
+
+
 def desenha_cta(img, cta, y=0.66):
     W, H = img.size
     f = ImageFont.truetype(FONTE, round(W * 0.047))

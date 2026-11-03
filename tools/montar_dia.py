@@ -25,11 +25,25 @@ for p in m["posts"]:
                                 "--num", f["num"], "--titulo", f["titulo"], "--texto", f["texto"], "--w", str(w), "--h", str(h)], check=True)
             continue
         src = os.path.join(O, f["arquivo"])
+        if f.get("zoom"):
+            # "puxada": recorte do detalhe da peça, número e código em destaque
+            cx, cy, cw = f["zoom"]
+            for (w, h, nome) in [(1080, 1920, b), (1080, 1350, f"igr{p['post']}-{i}")]:
+                im = Image.open(src).convert("RGB"); W, H = im.size
+                bw = round(W * cw); bh = round(bw * h / w)
+                if bh > H: bh = H; bw = round(bh * w / h)
+                x0 = min(max(0, round(W * cx - bw / 2)), W - bw); y0 = min(max(0, round(H * cy - bh / 2)), H - bh)
+                im = im.crop((x0, y0, x0 + bw, y0 + bh)).resize((w, h), Image.LANCZOS).convert("RGBA")
+                if f.get("num"): arte.desenha_num(im, f["num"])
+                if f.get("codigo"): arte.desenha_codigo_grande(im, f["codigo"], 0.80 if h > 1500 else 0.82)
+                im.convert("RGB").save(os.path.join(out, nome + ".jpg"), quality=92)
+            continue
         for modo, base, ig in [("tt", src, False), ("ig", None, True)]:
             if ig:
                 tmp = tempfile.mktemp(suffix=".jpg"); ig_crop(src, tmp); base = tmp
             im = Image.open(base).convert("RGBA")
             if i == 1: arte.desenha_cta(im, p["cta"], 0.72 if ig else 0.66)
+            if f.get("num"): arte.desenha_num(im, f["num"])
             if f.get("cta2"): arte.desenha_cta(im, f["cta2"], 0.72 if ig else 0.66)
             if f.get("codigo"):
                 arte.desenha_codigo(im, f["codigo"], 0.045, 0.05) if ig else arte.desenha_codigo(im, f["codigo"])
