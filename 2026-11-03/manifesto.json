@@ -1,15 +1,88 @@
-{"data":"2026-11-03","posts":[
- {"post":1,"horario":"12:00","cta":"Shorts de alfaiataria pro verão ☀️","fotos":[
-   {"arquivo":"p1a.jpg","produto":"23897760941","codigo":""},
-   {"arquivo":"p1b.jpg","produto":"20299865003","codigo":""},
-   {"arquivo":"p1c.jpg","produto":"22494471186","codigo":""}]},
- {"post":2,"horario":"18:00","cta":"Antes de comprar roupa na Shopee, confere isso ✅","fotos":[
-   {"arquivo":"p2a.jpg","produto":"22794355289","codigo":""},
-   {"slide":true,"fundo":"p2b.jpg","num":"1","titulo":"Vendas e avaliações","texto":"Prefira peças com centenas de vendas e nota alta.\nEsse vestido: mais de 600 vendidos, 226 avaliações e nota 4,7."},
-   {"slide":true,"fundo":"p2a.jpg","num":"2","titulo":"Fotos de quem comprou","texto":"Abra as avaliações com foto e compare com a foto do anúncio.\nEsse tem 49 avaliações com foto."},
-   {"slide":true,"fundo":"p2b.jpg","num":"3","titulo":"Tabela de medidas","texto":"Compare com uma roupa sua que veste bem.\nAqui: P veste 36/38, M veste 40/42 e G veste 44."},
-   {"arquivo":"p2b.jpg","produto":"22794355289","codigo":"","cta2":"Esse passou nos 3 testes 👀"}]},
- {"post":3,"horario":"20:30","cta":"Vestidos pra confraternização ✨","fotos":[
-   {"arquivo":"p3a.jpg","produto":"23994918722","codigo":""},
-   {"arquivo":"p3b.jpg","produto":"22997718412","codigo":""},
-   {"arquivo":"p3c.jpg","produto":"58253274651","codigo":""}]}]}
+{
+ "data": "2026-11-03",
+ "posts": [
+  {
+   "post": 1,
+   "horario": "12:00",
+   "cta": "Shorts de alfaiataria pro verão ☀️",
+   "fotos": [
+    {
+     "arquivo": "p1a.jpg",
+     "produto": "23897760941",
+     "codigo": "BRMYQPBTZ"
+    },
+    {
+     "arquivo": "p1b.jpg",
+     "produto": "20299865003",
+     "codigo": "BYZKHJATE"
+    },
+    {
+     "arquivo": "p1c.jpg",
+     "produto": "22494471186",
+     "codigo": "BBLCXGGCE"
+    }
+   ]
+  },
+  {
+   "post": 2,
+   "horario": "18:00",
+   "cta": "Antes de comprar roupa na Shopee, confere isso ✅",
+   "fotos": [
+    {
+     "arquivo": "p2a.jpg",
+     "produto": "22794355289",
+     "codigo": "BXQARNUPU"
+    },
+    {
+     "slide": true,
+     "fundo": "p2b.jpg",
+     "num": "1",
+     "titulo": "Vendas e avaliações",
+     "texto": "Prefira peças com centenas de vendas e nota alta.\nEsse vestido: mais de 600 vendidos, 226 avaliações e nota 4,7."
+    },
+    {
+     "slide": true,
+     "fundo": "p2a.jpg",
+     "num": "2",
+     "titulo": "Fotos de quem comprou",
+     "texto": "Abra as avaliações com foto e compare com a foto do anúncio.\nEsse tem 49 avaliações com foto."
+    },
+    {
+     "slide": true,
+     "fundo": "p2b.jpg",
+     "num": "3",
+     "titulo": "Tabela de medidas",
+     "texto": "Compare com uma roupa sua que veste bem.\nAqui: P veste 36/38, M veste 40/42 e G veste 44."
+    },
+    {
+     "arquivo": "p2b.jpg",
+     "produto": "22794355289",
+     "codigo": "BXQARNUPU",
+     "cta2": "Esse passou nos 3 testes 👀"
+    }
+   ]
+  },
+  {
+   "post": 3,
+   "horario": "20:30",
+   "cta": "Vestidos pra confraternização ✨",
+   "fotos": [
+    {
+     "arquivo": "p3a.jpg",
+     "produto": "23994918722",
+     "codigo": "AHRLXGGFJ"
+    },
+    {
+     "arquivo": "p3b.jpg",
+     "produto": "22997718412",
+     "codigo": "AKBDZJAVW"
+    },
+    {
+     "arquivo": "p3c.jpg",
+     "produto": "58253274651",
+     "codigo": "ACMMVKFKB"
+    }
+   ]
+  }
+ ]
+}
