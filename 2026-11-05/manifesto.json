@@ -1,13 +1,75 @@
-{"data":"2026-11-05","posts":[
-{"post":1,"horario":"12:00","cta":"Top 3 vestidos longos da Shopee 👗","fotos":[
- {"arquivo":"p1a.jpg","produto":"49502010876","num":"1"},
- {"arquivo":"p1b.jpg","produto":"23098669881","num":"2"},
- {"arquivo":"p1c.jpg","produto":"58106275837","num":"3"}]},
-{"post":2,"horario":"18:00","cta":"1 calça da Shopee, 3 jeitos ✨","fotos":[
- {"arquivo":"p2a.jpg","produto":"21198283179"},
- {"arquivo":"p2b.jpg","produto":"21198283179","cta2":"Pro trabalho 💼"},
- {"arquivo":"p2c.jpg","produto":"21198283179","cta2":"Pra sair à noite 🌙"}]},
-{"post":3,"horario":"20:30","cta":"Conjuntos da Shopee pra confraternização 🥂","fotos":[
- {"arquivo":"p3a.jpg","produto":"18798325186"},
- {"arquivo":"p3b.jpg","produto":"58258296035"},
- {"arquivo":"p3c.jpg","produto":"44410683550"}]}]}
+{
+ "data": "2026-11-05",
+ "posts": [
+  {
+   "post": 1,
+   "horario": "12:00",
+   "cta": "Top 3 vestidos longos da Shopee 👗",
+   "fotos": [
+    {
+     "arquivo": "p1a.jpg",
+     "produto": "49502010876",
+     "num": "1",
+     "codigo": "APTNYPWEG"
+    },
+    {
+     "arquivo": "p1b.jpg",
+     "produto": "23098669881",
+     "num": "2",
+     "codigo": "ADKZFCGUE"
+    },
+    {
+     "arquivo": "p1c.jpg",
+     "produto": "58106275837",
+     "num": "3",
+     "codigo": "ACAQPHARR"
+    }
+   ]
+  },
+  {
+   "post": 2,
+   "horario": "18:00",
+   "cta": "1 calça da Shopee, 3 jeitos ✨",
+   "fotos": [
+    {
+     "arquivo": "p2a.jpg",
+     "produto": "21198283179",
+     "codigo": "CFBCYKCGS"
+    },
+    {
+     "arquivo": "p2b.jpg",
+     "produto": "21198283179",
+     "cta2": "Pro trabalho 💼",
+     "codigo": "CFBCYKCGS"
+    },
+    {
+     "arquivo": "p2c.jpg",
+     "produto": "21198283179",
+     "cta2": "Pra sair à noite 🌙",
+     "codigo": "CFBCYKCGS"
+    }
+   ]
+  },
+  {
+   "post": 3,
+   "horario": "20:30",
+   "cta": "Conjuntos da Shopee pra confraternização 🥂",
+   "fotos": [
+    {
+     "arquivo": "p3a.jpg",
+     "produto": "18798325186",
+     "codigo": "AGGCFUWXN"
+    },
+    {
+     "arquivo": "p3b.jpg",
+     "produto": "22494247394"
+    },
+    {
+     "arquivo": "p3c.jpg",
+     "produto": "44410683550",
+     "codigo": "BWQWKYLJP"
+    }
+   ]
+  }
+ ]
+}
