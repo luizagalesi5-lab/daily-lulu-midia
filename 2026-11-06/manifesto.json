@@ -1,0 +1,15 @@
+{"data":"2026-11-06","posts":[
+{"post":1,"horario":"12:00","cta":"Vestidos midi da Shopee pra sexta 💃","fotos":[
+ {"arquivo":"p1a.jpg","produto":"23998307001","num":"1"},
+ {"arquivo":"p1b.jpg","produto":"20327980436","num":"2"},
+ {"arquivo":"p1c.jpg","produto":"58212557686","num":"3"}]},
+{"post":2,"horario":"18:00","cta":"Antes de comprar roupa na Shopee, confere isso ✅","fotos":[
+ {"arquivo":"p2a.jpg","produto":"52660324546"},
+ {"slide":true,"fundo":"p2b.jpg","num":"1","titulo":"Vendas e avaliações","texto":"Prefira peças com milhares de vendas e muitas avaliações.\nEssa blusa: mais de 10 mil vendidos e 7.657 avaliações."},
+ {"slide":true,"fundo":"p2a.jpg","num":"2","titulo":"Fotos de quem comprou","texto":"Abra as avaliações com foto e compare com a foto do anúncio.\nEssa tem 652 avaliações com foto."},
+ {"slide":true,"fundo":"p2b.jpg","num":"3","titulo":"Tabela de medidas","texto":"Compare com uma roupa sua que veste bem.\nAqui: P veste 36, M veste 38/40, G veste 42/44 e GG veste 46/48."},
+ {"arquivo":"p2b.jpg","produto":"52660324546","cta2":"Essa passou nos 3 testes ✅"}]},
+{"post":3,"horario":"20:30","cta":"Looks da Shopee pro fim de semana ✨","fotos":[
+ {"arquivo":"p3a.jpg","produto":"21799898744"},
+ {"arquivo":"p3b.jpg","produto":"23598944493"},
+ {"arquivo":"p3c.jpg","produto":"23093900302"}]}]}
