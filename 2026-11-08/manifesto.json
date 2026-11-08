@@ -1,13 +1,79 @@
-{"data":"2026-11-08","posts":[
-{"post":1,"horario":"12:00","cta":"Vestidos midi pro almoço de domingo 💛","fotos":[
- {"arquivo":"p1a.jpg","produto":"22898954966","num":"1"},
- {"arquivo":"p1b.jpg","produto":"58261469125","num":"2"},
- {"arquivo":"p1c.jpg","produto":"22094578198","num":"3"}]},
-{"post":2,"horario":"18:00","cta":"1 regata da Shopee, 3 jeitos ✨","fotos":[
- {"arquivo":"p2a.jpg","produto":"44553066762"},
- {"arquivo":"p2b.jpg","produto":"44553066762","cta2":"Pro trabalho 💼"},
- {"arquivo":"p2c.jpg","produto":"44553066762","cta2":"Pro passeio ☀️"}]},
-{"post":3,"horario":"20:30","cta":"Blusinhas pra segunda no trabalho 💼","fotos":[
- {"arquivo":"p3a.jpg","produto":"22597777290","num":"1"},
- {"arquivo":"p3b.jpg","produto":"23198523971","num":"2"},
- {"arquivo":"p3c.jpg","produto":"22594157918","num":"3"}]}]}
+{
+ "data": "2026-11-08",
+ "posts": [
+  {
+   "post": 1,
+   "horario": "12:00",
+   "cta": "Vestidos midi pro almoço de domingo 💛",
+   "fotos": [
+    {
+     "arquivo": "p1a.jpg",
+     "produto": "22898954966",
+     "num": "1",
+     "codigo": "APGHGTAXG"
+    },
+    {
+     "arquivo": "p1b.jpg",
+     "produto": "58261469125",
+     "num": "2",
+     "codigo": "CDSCTSDRT"
+    },
+    {
+     "arquivo": "p1c.jpg",
+     "produto": "22094578198",
+     "num": "3",
+     "codigo": "BANJKPUMA"
+    }
+   ]
+  },
+  {
+   "post": 2,
+   "horario": "18:00",
+   "cta": "1 regata da Shopee, 3 jeitos ✨",
+   "fotos": [
+    {
+     "arquivo": "p2a.jpg",
+     "produto": "44553066762",
+     "codigo": "ARBDMWHEG"
+    },
+    {
+     "arquivo": "p2b.jpg",
+     "produto": "44553066762",
+     "cta2": "Pro trabalho 💼",
+     "codigo": "ARBDMWHEG"
+    },
+    {
+     "arquivo": "p2c.jpg",
+     "produto": "44553066762",
+     "cta2": "Pro passeio ☀️",
+     "codigo": "ARBDMWHEG"
+    }
+   ]
+  },
+  {
+   "post": 3,
+   "horario": "20:30",
+   "cta": "Blusinhas pra segunda no trabalho 💼",
+   "fotos": [
+    {
+     "arquivo": "p3a.jpg",
+     "produto": "22597777290",
+     "num": "1",
+     "codigo": "ABBUUMCRC"
+    },
+    {
+     "arquivo": "p3b.jpg",
+     "produto": "23198523971",
+     "num": "2",
+     "codigo": "ALWAFQZDM"
+    },
+    {
+     "arquivo": "p3c.jpg",
+     "produto": "22594157918",
+     "num": "3",
+     "codigo": "BYBGKKATH"
+    }
+   ]
+  }
+ ]
+}
