@@ -1,0 +1,61 @@
+{
+ "data": "2026-11-08",
+ "posts": [
+  {
+   "post": 1,
+   "modeloCapa": "transformacao-1a-pessoa",
+   "geral": "decor-1108-a-geral.jpg",
+   "capa": "Mesa de domingo com cara de restaurante 💛",
+   "final_tiktok": "Comenta GRUPO que eu te mando o link!",
+   "final_ig": "Link na bio!",
+   "produtos": [
+    {
+     "arquivo": "decor-1108-a1.jpg",
+     "produto": "58207237043",
+     "nome": "Prato giratório de centro de mesa",
+     "codigo": "AKZGZVTED"
+    },
+    {
+     "arquivo": "decor-1108-a2.jpg",
+     "produto": "58200334403",
+     "nome": "Sousplat redondo champagne",
+     "codigo": "BEDUZLFRS"
+    },
+    {
+     "arquivo": "decor-1108-a3.jpg",
+     "produto": "58257226310",
+     "nome": "Vaso de cerâmica branco",
+     "codigo": "CAWJDMLDC"
+    }
+   ]
+  },
+  {
+   "post": 2,
+   "modeloCapa": "rotulo",
+   "geral": "decor-1108-b-geral.jpg",
+   "capa": "Quarto com cara de hotel gastando pouco ✨",
+   "final_tiktok": "Comenta GRUPO que eu te mando o link!",
+   "final_ig": "Link na bio!",
+   "produtos": [
+    {
+     "arquivo": "decor-1108-b1.jpg",
+     "produto": "20452224775",
+     "nome": "Abajur com base de madeira",
+     "codigo": "ARQMUKJKF"
+    },
+    {
+     "arquivo": "decor-1108-b2.jpg",
+     "produto": "22099456475",
+     "nome": "Manta de algodão com franjas",
+     "codigo": "AYNYRDDCF"
+    },
+    {
+     "arquivo": "decor-1108-b3.jpg",
+     "produto": "22497287567",
+     "nome": "Espelho de chão com moldura preta",
+     "codigo": "ABPJXRPUY"
+    }
+   ]
+  }
+ ]
+}
