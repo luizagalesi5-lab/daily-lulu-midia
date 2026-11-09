@@ -7,16 +7,16 @@
    "cta": "Top 3 calças pantalona da Shopee 💚",
    "fotos": [
     {
-     "arquivo": "p1a.jpg",
-     "produto": "23293978804",
-     "num": "1",
-     "codigo": "BJXYBXSCY"
-    },
-    {
      "arquivo": "p1b.jpg",
      "produto": "22098179394",
-     "num": "2",
+     "num": "1",
      "codigo": "AEWKEZDQW"
+    },
+    {
+     "arquivo": "p1a.jpg",
+     "produto": "23293978804",
+     "num": "2",
+     "codigo": "BJXYBXSCY"
     },
     {
      "arquivo": "p1c.jpg",
