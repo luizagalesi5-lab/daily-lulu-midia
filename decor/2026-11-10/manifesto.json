@@ -1,0 +1,62 @@
+{
+ "data": "2026-11-10",
+ "posts": [
+  {
+   "post": 1,
+   "modeloCapa": "transformacao-1a-pessoa",
+   "geral": "decor-1110-a-geral.jpg",
+   "capa": "Montei meu cantinho do café gastando pouco ☕",
+   "final_tiktok": "Comenta GRUPO que eu te mando o link!",
+   "final_ig": "Link na bio!",
+   "produtos": [
+    {
+     "arquivo": "decor-1110-a1.jpg",
+     "produto": "23593264350",
+     "nome": "Kit torre porta cápsulas + frase + bandeja",
+     "codigo": "BRAJPGBPH"
+    },
+    {
+     "arquivo": "decor-1110-a2.jpg",
+     "produto": "22497911050",
+     "nome": "Bandeja com 6 xícaras",
+     "codigo": "BPBHEWQAV"
+    },
+    {
+     "arquivo": "decor-1110-a3.jpg",
+     "produto": "41731691097",
+     "nome": "Aplique Cantinho do Café MDF",
+     "codigo": "CCDYSFEGT"
+    }
+   ],
+   "capa_topo": 0.15
+  },
+  {
+   "post": 2,
+   "modeloCapa": "rotulo",
+   "geral": "decor-1110-b-geral.jpg",
+   "capa": "Banheiro com cara de spa sem reforma ✨",
+   "final_tiktok": "Comenta GRUPO que eu te mando o link!",
+   "final_ig": "Link na bio!",
+   "produtos": [
+    {
+     "arquivo": "decor-1110-b1.jpg",
+     "produto": "19399663917",
+     "nome": "Jogo de toalhas 4 peças",
+     "codigo": "BQBNTQJUA"
+    },
+    {
+     "arquivo": "decor-1110-b2.jpg",
+     "produto": "45056823760",
+     "nome": "Bandeja espelhada orgânica",
+     "codigo": "BLVPTHGCR"
+    },
+    {
+     "arquivo": "decor-1110-b3.jpg",
+     "produto": "21034795993",
+     "nome": "Tapete bolinha macarrão",
+     "codigo": "BLTCTKRAT"
+    }
+   ]
+  }
+ ]
+}
