@@ -1,14 +1,80 @@
-{"data":"2026-11-10","posts":[
-{"post":1,"horario":"12:00","cta":"Top 3 conjuntos de linho da Shopee 🌿","fotos":[
- {"arquivo":"p1a.jpg","produto":"19599074190","num":"1"},
- {"arquivo":"p1b.jpg","produto":"23693848248","num":"2"},
- {"arquivo":"p1c.jpg","produto":"23998776144","num":"3"}]},
-{"post":2,"horario":"18:00","cta":"Qual você usaria: 1, 2 ou 3? 🤔","fotos":[
- {"arquivo":"p2a.jpg","produto":"22197777581","num":"1"},
- {"arquivo":"p2b.jpg","produto":"23193349229","num":"2"},
- {"arquivo":"p2c.jpg","produto":"22394494115","num":"3"}]},
-{"post":3,"horario":"20:30","cta":"Top 3 macacões da Shopee ✨","fotos":[
- {"arquivo":"p3a.jpg","produto":"51608508182","num":"1"},
- {"arquivo":"p3b.jpg","produto":"22898915769","num":"2"},
- {"arquivo":"p3c.jpg","produto":"47809468488","num":"3"}]}
-]}
+{
+ "data": "2026-11-10",
+ "posts": [
+  {
+   "post": 1,
+   "horario": "12:00",
+   "cta": "Top 3 conjuntos de linho da Shopee 🌿",
+   "fotos": [
+    {
+     "arquivo": "p1a.jpg",
+     "produto": "19599074190",
+     "num": "1",
+     "codigo": "BRWTKAYWH"
+    },
+    {
+     "arquivo": "p1b.jpg",
+     "produto": "23693848248",
+     "num": "2",
+     "codigo": "BMGLZUDLN"
+    },
+    {
+     "arquivo": "p1c.jpg",
+     "produto": "23998776144",
+     "num": "3",
+     "codigo": "BVQQYPSVE"
+    }
+   ]
+  },
+  {
+   "post": 2,
+   "horario": "18:00",
+   "cta": "Qual você usaria: 1, 2 ou 3? 🤔",
+   "fotos": [
+    {
+     "arquivo": "p2a.jpg",
+     "produto": "22197777581",
+     "num": "1",
+     "codigo": "ANFTJFZUN"
+    },
+    {
+     "arquivo": "p2b.jpg",
+     "produto": "23193349229",
+     "num": "2",
+     "codigo": "AVJTUNNHE"
+    },
+    {
+     "arquivo": "p2c.jpg",
+     "produto": "22394494115",
+     "num": "3",
+     "codigo": "BHLLWQGXV"
+    }
+   ]
+  },
+  {
+   "post": 3,
+   "horario": "20:30",
+   "cta": "Top 3 macacões da Shopee ✨",
+   "fotos": [
+    {
+     "arquivo": "p3a.jpg",
+     "produto": "51608508182",
+     "num": "1",
+     "codigo": "AJPYJJJWN"
+    },
+    {
+     "arquivo": "p3b.jpg",
+     "produto": "22898915769",
+     "num": "2",
+     "codigo": "BHZLSRMKE"
+    },
+    {
+     "arquivo": "p3c.jpg",
+     "produto": "47809468488",
+     "num": "3",
+     "codigo": "ADXPKLLQN"
+    }
+   ]
+  }
+ ]
+}

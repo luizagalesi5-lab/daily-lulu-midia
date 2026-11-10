@@ -1,4 +1,4 @@
-"""TikTok 7:10 (1080x1543): alarga a foto 9:16 com seam carving (modelo protegida) e redesenha a arte.
+"""TikTok 7:10 (1080x1543): alarga a foto 9:16 esticando por igual só a parede/criado-mudo e a cama (modelo e borda do espelho intactas, linhas retas) e redesenha a arte.
 No app, a área da foto no feed é ~0,70 (largura/altura): 9:16 é cortada (some cabeça/pés) e 3:4 fica com bordas. 7:10 preenche sem borda e sem corte.
 Uso: python3 montar_tt34.py pasta_do_dia [saida]  -> ttN-i.jpg
 """
@@ -6,16 +6,33 @@ import json, os, subprocess, sys
 import numpy as np, cv2
 from PIL import Image
 T = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, T)
-import arte, alarga
+import arte
 dia = sys.argv[1]; out = sys.argv[2] if len(sys.argv) > 2 else dia
 m = json.load(open(os.path.join(dia, "manifesto.json"))); os.makedirs(out, exist_ok=True)
 O = os.path.join(dia, "originais"); C = os.path.join(dia, "originais710"); os.makedirs(C, exist_ok=True)
+def moldura(img):
+    # coluna da borda direita do espelho: aresta vertical mais forte e contínua no terço direito
+    H, W = img.shape[:2]; g = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY).astype(np.float32)
+    ex = np.abs(cv2.Sobel(g, cv2.CV_32F, 1, 0, ksize=3))[int(H*.1):int(H*.9)]
+    sc = np.median(ex, axis=0); x0 = int(W*.82)
+    return x0 + int(np.argmax(sc[x0:W-3]))
+
+def estica(img, alvo_w):
+    # alarga só com faixas esticadas por igual (linhas verticais continuam retas):
+    # parede/criado-mudo à esquerda da modelo e cama entre a modelo e a borda do espelho
+    H, W = img.shape[:2]; f = moldura(img)
+    a0, a1 = int(W*.02), int(W*.20); b0, b1 = int(W*.80), max(int(W*.80)+10, f-8)
+    extra = alvo_w - W; la, lb = a1-a0, b1-b0
+    ea = round(extra*la/(la+lb)); eb = extra-ea
+    sa = cv2.resize(img[:, a0:a1], (la+ea, H), interpolation=cv2.INTER_CUBIC)
+    sb = cv2.resize(img[:, b0:b1], (lb+eb, H), interpolation=cv2.INTER_CUBIC)
+    return np.concatenate([img[:, :a0], sa, img[:, a1:b0], sb, img[:, b1:]], axis=1)
+
 def base34(nome):
     dst = os.path.join(C, nome)
     if not os.path.exists(dst):
         img = cv2.imread(os.path.join(O, nome)); H, W = img.shape[:2]
-        pm = np.zeros((H, W), bool); pm[:, int(W*0.20):int(W*0.80)] = True
-        r = alarga.alarga(img, round(H*0.70), pm)
+        r = estica(img, round(H*0.70))
         cv2.imwrite(dst, cv2.resize(r, (1080, 1543), interpolation=cv2.INTER_LANCZOS4), [cv2.IMWRITE_JPEG_QUALITY, 95])
     return dst
 for p in m["posts"]:
