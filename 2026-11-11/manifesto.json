@@ -1,0 +1,80 @@
+{
+ "data": "2026-11-11",
+ "posts": [
+  {
+   "post": 1,
+   "horario": "12:00",
+   "cta": "Top 3 vestidos da Shopee ✨",
+   "fotos": [
+    {
+     "arquivo": "p1a.jpg",
+     "produto": "29042426965",
+     "num": "1",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p1b.jpg",
+     "produto": "44221756147",
+     "num": "2",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p1c.jpg",
+     "produto": "43410928108",
+     "num": "3",
+     "codigo": ""
+    }
+   ]
+  },
+  {
+   "post": 2,
+   "horario": "18:00",
+   "cta": "Qual camisa você usaria: 1, 2 ou 3? 🤔",
+   "fotos": [
+    {
+     "arquivo": "p2a.jpg",
+     "produto": "22498574135",
+     "num": "1",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p2b.jpg",
+     "produto": "19397501608",
+     "num": "2",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p2c.jpg",
+     "produto": "22194186180",
+     "num": "3",
+     "codigo": ""
+    }
+   ]
+  },
+  {
+   "post": 3,
+   "horario": "20:30",
+   "cta": "Top 3 saias longas da Shopee 🤎",
+   "fotos": [
+    {
+     "arquivo": "p3a.jpg",
+     "produto": "22898911519",
+     "num": "1",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p3b.jpg",
+     "produto": "22798735819",
+     "num": "2",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p3c.jpg",
+     "produto": "23893167077",
+     "num": "3",
+     "codigo": ""
+    }
+   ]
+  }
+ ]
+}
