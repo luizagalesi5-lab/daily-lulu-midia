@@ -1,0 +1,63 @@
+{
+ "data": "2026-11-11",
+ "posts": [
+  {
+   "post": 1,
+   "modeloCapa": "transformacao-1a-pessoa",
+   "geral": "decor-1111-a-geral.jpg",
+   "capa": "Organizei minha cozinha gastando pouco ✨",
+   "final_tiktok": "Comenta GRUPO que eu te mando o link!",
+   "final_ig": "Link na bio!",
+   "produtos": [
+    {
+     "arquivo": "decor-1111-a1.jpg",
+     "produto": "22499363504",
+     "nome": "Porta temperos giratório",
+     "codigo": "CJVJZZMNH"
+    },
+    {
+     "arquivo": "decor-1111-a2.jpg",
+     "produto": "46360468172",
+     "nome": "Potes herméticos tampa bambu",
+     "codigo": "BZJNNNNLP"
+    },
+    {
+     "arquivo": "decor-1111-a3.jpg",
+     "produto": "58203349505",
+     "nome": "Porta frios duplo",
+     "codigo": "AFHQYEVQC"
+    }
+   ],
+   "selo": "11.11 da Shopee"
+  },
+  {
+   "post": 2,
+   "modeloCapa": "rotulo",
+   "geral": "decor-1111-b-geral.jpg",
+   "capa": "Sala aconchegante com 3 achadinhos 💛",
+   "final_tiktok": "Comenta GRUPO que eu te mando o link!",
+   "final_ig": "Link na bio!",
+   "produtos": [
+    {
+     "arquivo": "decor-1111-b1.jpg",
+     "produto": "21598324472",
+     "nome": "Kit manta + capas",
+     "codigo": "BNEYKPKWH"
+    },
+    {
+     "arquivo": "decor-1111-b2.jpg",
+     "produto": "21799891072",
+     "nome": "Costela-de-adão 90 cm",
+     "codigo": "BPQRMREPF"
+    },
+    {
+     "arquivo": "decor-1111-b3.jpg",
+     "produto": "20399565968",
+     "nome": "Kit 6 vasinhos",
+     "codigo": "BVTBYXKYC"
+    }
+   ],
+   "selo": "11.11 da Shopee"
+  }
+ ]
+}

@@ -1,6 +1,6 @@
 """Monta os carrosseis da Decor da Lulu (layout padrao da Luiza, 08/11).
 Uso: python3 montar_decor.py manifesto.json pasta_fotos pasta_saida
-Sai: postX-i.jpg (TikTok 768x1376) e igX-i.jpg (Instagram 1080x1350, recorte a partir de 10,5% da altura).
+Sai: postX-i.jpg (TikTok 768x1376), tkX-i.jpg (TikTok 7:10 1080x1543, recorte a partir de 10% da altura) e igX-i.jpg (Instagram 1080x1350, recorte a partir de 10,5% da altura).
 Fonte Patrick Hand; tamanhos em % da largura, posicoes em % da altura.
 """
 import json, sys, os
@@ -101,7 +101,7 @@ def ocupacao(img):
     g = img.convert("L").filter(ImageFilter.FIND_EDGES)
     return g
 
-def capa_auto(img, W, H, texto, ig, topo_fixo=None):
+def capa_auto(img, W, H, texto, ig, topo_fixo=None, selo=None):
     """Chamada grande e chamativa: caixa branca arredondada, texto preto Patrick Hand,
     ate 2 linhas, colocada na area mais limpa da foto (fora das zonas da interface)."""
     from PIL import ImageStat
@@ -117,21 +117,31 @@ def capa_auto(img, W, H, texto, ig, topo_fixo=None):
     bh = lh * len(linhas) + 2 * pad * 0.7
     # zonas permitidas: TikTok 14%-64% (fora das abas do topo e da legenda/botoes);
     # Instagram 8%-88%
-    lo, hi = (0.08, 0.88) if ig else (0.20, 0.64)
+    lo, hi = {'ig': (0.08, 0.88), 't7': (0.07, 0.70)}.get(ig, (0.20, 0.64))
+    sh = 0
+    if selo:
+        fs = ImageFont.truetype(PH, round(W * 0.10))
+        sa, sd = fs.getmetrics(); spad = W * 0.03
+        sw = measure(d, selo, fs) + 2 * spad; shh = sa + sd + spad * 0.8
+        sh = shh + H * 0.012
     edges = ocupacao(img)
     x0 = (W - bw) / 2
     if topo_fixo is not None:
         y0 = H * topo_fixo
     else:
         best = None
-        y = H * lo
+        y = H * lo + sh
         while y + bh <= H * hi:
-            st = ImageStat.Stat(edges.crop((int(x0), int(y), int(x0 + bw), int(y + bh))))
+            st = ImageStat.Stat(edges.crop((int(x0), int(y - sh), int(x0 + bw), int(y + bh))))
             score = st.mean[0] + 0.5 * st.stddev[0]
             if best is None or score < best[0]:
                 best = (score, y)
             y += H * 0.01
         y0 = best[1]
+    if selo:
+        sx = (W - sw) / 2; sy = y0 - sh
+        d.rounded_rectangle([sx, sy, sx + sw, sy + shh], radius=W * 0.025, fill=PRETO)
+        draw_text(img, d, sx + spad, sy + spad * 0.3, selo, fs, (255, 255, 255))
     d.rounded_rectangle([x0, y0, x0 + bw, y0 + bh], radius=W * 0.025, fill=(255, 255, 255))
     ty = y0 + (bh - lh * len(linhas)) / 2
     for l in linhas:
@@ -144,10 +154,10 @@ def codigo(img, W, H, cod, ig):
     if not cod:
         return
     d = ImageDraw.Draw(img)
-    f = ImageFont.truetype(PH, round(W * (0.05 if ig else 0.042)))
+    f = ImageFont.truetype(PH, round(W * (0.042 if ig in (False, 'tk') else 0.05)))
     tw = d.textlength(cod, font=f)
     x = W - W * 0.042 - tw
-    y = H * (0.045 if ig else 0.15)
+    y = H * {'ig': 0.045, 't7': 0.045}.get(ig, 0.15)
     d.text((x, y), cod, font=f, fill=PRETO)
 
 def slide_final(img, W, H, linha, ig=False):
@@ -166,7 +176,7 @@ def slide_final(img, W, H, linha, ig=False):
         asc, desc = f.getmetrics()
         caixas.append((txt, f, bg, fg, measure(d, txt, f) + 2 * padx, asc + desc + W * 0.03))
     total = sum(c[5] for c in caixas) + gap * (len(caixas) - 1)
-    y = H * (0.30 if ig else 0.21)
+    y = H * {'ig': 0.30, 't7': 0.14}.get(ig, 0.21)
     for txt, f, bg, fg, bw, bh in caixas:
         x0 = (W - bw) / 2
         d.rounded_rectangle([x0, y, x0 + bw, y + bh], radius=W * 0.02, fill=bg)
@@ -178,7 +188,9 @@ def formatos(src):
     tk = src.convert("RGB").resize((768, 1376), Image.LANCZOS)
     top = round(1376 * 0.105); ch = round(768 * 1350 / 1080)
     ig = tk.crop((0, top, 768, top + ch)).resize((1080, 1350), Image.LANCZOS)
-    return tk, ig
+    t7h = round(768 / 0.7); t7top = round(1376 * 0.10)
+    t7 = tk.crop((0, t7top, 768, t7top + t7h)).resize((1080, 1543), Image.LANCZOS)
+    return tk, ig, t7
 
 def fmt(c):
     c = (c or "").replace("-", "").upper()
@@ -188,31 +200,31 @@ def main(man, src, out):
     m = json.load(open(man)); os.makedirs(out, exist_ok=True)
     for p in m["posts"]:
         n = p["post"]
-        tk_g, ig_g = formatos(Image.open(os.path.join(src, p["geral"])))
+        tk_g, ig_g, t7_g = formatos(Image.open(os.path.join(src, p["geral"])))
         fotos = []
         # capa
-        for im, ig in ((tk_g.copy(), False), (ig_g.copy(), True)):
+        for im, ig in ((tk_g.copy(), 'tk'), (ig_g.copy(), 'ig'), (t7_g.copy(), 't7')):
             W, H = im.size
-            pos = capa_auto(im, W, H, p["capa"], ig, p.get("capa_topo_ig" if ig else "capa_topo"))
-            print(f"post{n} capa {'ig' if ig else 'tiktok'}: topo {pos:.0%}")
+            pos = capa_auto(im, W, H, p["capa"], ig, p.get({'ig': 'capa_topo_ig', 't7': 'capa_topo_t7'}.get(ig, 'capa_topo')), p.get("selo"))
+            print(f"post{n} capa {ig}: topo {pos:.0%}")
             fotos.append((1, ig, im))
         # produtos
         for i, pr in enumerate(p["produtos"], 2):
-            tk, ig_im = formatos(Image.open(os.path.join(src, pr["arquivo"])))
-            for im, ig in ((tk, False), (ig_im, True)):
+            tk, ig_im, t7 = formatos(Image.open(os.path.join(src, pr["arquivo"])))
+            for im, ig in ((tk, 'tk'), (ig_im, 'ig'), (t7, 't7')):
                 W, H = im.size
                 if pr.get("cta2"):
-                    caixa(im, W, H, 0.72 if ig else 0.66, pr["cta2"])
+                    caixa(im, W, H, 0.66 if ig == 'tk' else 0.72, pr["cta2"])
                 codigo(im, W, H, fmt(pr.get("codigo")), ig)
                 fotos.append((i, ig, im))
         # slide final do grupo
         k = len(p["produtos"]) + 2
-        for im, ig, linha in ((tk_g.copy(), False, p["final_tiktok"]), (ig_g.copy(), True, p["final_ig"])):
+        for im, ig, linha in ((tk_g.copy(), 'tk', p["final_tiktok"]), (ig_g.copy(), 'ig', p["final_ig"]), (t7_g.copy(), 't7', p["final_tiktok"])):
             W, H = im.size
             slide_final(im, W, H, linha, ig)
             fotos.append((k, ig, im))
         for i, ig, im in fotos:
-            im.save(os.path.join(out, f"{'ig' if ig else 'post'}{n}-{i}.jpg"), quality=93)
+            im.save(os.path.join(out, f"{ {'ig': 'ig', 't7': 'tk'}.get(ig, 'post') }{n}-{i}.jpg"), quality=93)
 
 if __name__ == "__main__":
     main(*sys.argv[1:4])
