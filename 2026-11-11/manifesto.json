@@ -4,75 +4,78 @@
   {
    "post": 1,
    "horario": "12:00",
-   "cta": "Top 3 vestidos da Shopee ✨",
+   "cta": "11.11 na Shopee: top 3 vestidos ✨",
    "fotos": [
     {
      "arquivo": "p1a.jpg",
      "produto": "29042426965",
      "num": "1",
-     "codigo": ""
+     "codigo": "CGMNYUAFL"
     },
     {
      "arquivo": "p1b.jpg",
      "produto": "44221756147",
      "num": "2",
-     "codigo": ""
+     "codigo": "BHZLTANUA"
     },
     {
      "arquivo": "p1c.jpg",
      "produto": "43410928108",
      "num": "3",
-     "codigo": ""
+     "codigo": "AMWFVHBDQ",
+     "cta2": "O 11.11 é só hoje, corre! 🛒"
     }
    ]
   },
   {
    "post": 2,
-   "horario": "18:00",
-   "cta": "Qual camisa você usaria: 1, 2 ou 3? 🤔",
+   "horario": "17:00",
+   "cta": "11.11: qual camisa você usaria? 1, 2 ou 3? 🤔",
    "fotos": [
     {
      "arquivo": "p2a.jpg",
      "produto": "22498574135",
      "num": "1",
-     "codigo": ""
+     "codigo": "BMGCPWSCK"
     },
     {
      "arquivo": "p2b.jpg",
      "produto": "19397501608",
      "num": "2",
-     "codigo": ""
+     "codigo": "APGHHRJAQ"
     },
     {
      "arquivo": "p2c.jpg",
      "produto": "22194186180",
      "num": "3",
-     "codigo": ""
+     "codigo": "ACKTUCQGX",
+     "cta2": "O 11.11 é só hoje, corre! 🛒"
     }
    ]
   },
   {
    "post": 3,
-   "horario": "20:30",
-   "cta": "Top 3 saias longas da Shopee 🤎",
+   "horario": "19:00",
+   "cta": "11.11 na Shopee: top 3 saias longas 🤎",
    "fotos": [
     {
      "arquivo": "p3a.jpg",
      "produto": "22898911519",
      "num": "1",
-     "codigo": ""
+     "codigo": "BSLLCAFMY"
     },
     {
      "arquivo": "p3b.jpg",
      "produto": "22798735819",
      "num": "2",
-     "codigo": ""
+     "codigo": "BESUWEKAN"
     },
     {
      "arquivo": "p3c.jpg",
      "produto": "23893167077",
      "num": "3",
-     "codigo": ""
+     "codigo": "BHLLWZJES",
+     "cta2": "O 11.11 é só hoje, corre! 🛒"
     }
    ]
   }
