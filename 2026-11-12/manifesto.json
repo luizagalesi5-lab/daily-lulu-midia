@@ -3,26 +3,26 @@
  "posts": [
   {
    "post": 1,
-   "horario": "14:00",
+   "horario": "14:30",
    "cta": "Looks pro churrasquinho de domingo ☀️",
    "fotos": [
     {
      "arquivo": "p1a.jpg",
      "produto": "46957304505",
      "num": "1",
-     "codigo": ""
+     "codigo": "AZAEJVVSG"
     },
     {
      "arquivo": "p1b.jpg",
      "produto": "21798890887",
      "num": "2",
-     "codigo": ""
+     "codigo": "BAMRQGEKE"
     },
     {
      "arquivo": "p1c.jpg",
      "produto": "41759522157",
      "num": "3",
-     "codigo": ""
+     "codigo": "AKNBJDFKN"
     }
    ]
   },
@@ -35,19 +35,19 @@
      "arquivo": "p2a.jpg",
      "produto": "45252847496",
      "num": "1",
-     "codigo": ""
+     "codigo": "ASCBYJPLD"
     },
     {
      "arquivo": "p2b.jpg",
      "produto": "23598180383",
      "num": "2",
-     "codigo": ""
+     "codigo": "AWHFEPXJS"
     },
     {
      "arquivo": "p2c.jpg",
      "produto": "58267637144",
      "num": "3",
-     "codigo": ""
+     "codigo": "AJPYKAPNH"
     }
    ]
   },
@@ -60,19 +60,19 @@
      "arquivo": "p3a.jpg",
      "produto": "19598983756",
      "num": "1",
-     "codigo": ""
+     "codigo": "AVGGVHBNS"
     },
     {
      "arquivo": "p3b.jpg",
      "produto": "22794283905",
      "num": "2",
-     "codigo": ""
+     "codigo": "AWRZXJWLE"
     },
     {
      "arquivo": "p3c.jpg",
      "produto": "58265486357",
      "num": "3",
-     "codigo": ""
+     "codigo": "APGRUFADR"
     }
    ]
   }
