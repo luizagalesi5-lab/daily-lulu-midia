@@ -1,0 +1,59 @@
+{
+ "data": "2026-11-12",
+ "posts": [
+  {
+   "post": 1,
+   "geral": "decor-1112-a-geral.jpg",
+   "capa": "Lavanderia organizada com 3 achadinhos ✨",
+   "final_tiktok": "Comenta GRUPO que eu te mando o link!",
+   "final_ig": "Link na bio!",
+   "produtos": [
+    {
+     "arquivo": "decor-1112-a1.jpg",
+     "produto": "18298028063",
+     "nome": "Dispensers acrílico",
+     "codigo": "APRLLZGYV"
+    },
+    {
+     "arquivo": "decor-1112-a2.jpg",
+     "produto": "20097082290",
+     "nome": "Cesto bambu 50 L",
+     "codigo": "BYZAZKYZV"
+    },
+    {
+     "arquivo": "decor-1112-a3.jpg",
+     "produto": "58260399841",
+     "nome": "Estante organizadora preta",
+     "codigo": "APFYXRHAR"
+    }
+   ]
+  },
+  {
+   "post": 2,
+   "geral": "decor-1112-b-geral.jpg",
+   "capa": "Home office aconchegante gastando pouco 💛",
+   "final_tiktok": "Comenta GRUPO que eu te mando o link!",
+   "final_ig": "Link na bio!",
+   "produtos": [
+    {
+     "arquivo": "decor-1112-b1.jpg",
+     "produto": "58200308460",
+     "nome": "Luminária retrô",
+     "codigo": "BWEHRVLQY"
+    },
+    {
+     "arquivo": "decor-1112-b2.jpg",
+     "produto": "22698956717",
+     "nome": "Caixas de bambu",
+     "codigo": "CFBMLSELJ"
+    },
+    {
+     "arquivo": "decor-1112-b3.jpg",
+     "produto": "20197680321",
+     "nome": "Organizadores transparentes",
+     "codigo": "BGQLMUGFX"
+    }
+   ]
+  }
+ ]
+}
