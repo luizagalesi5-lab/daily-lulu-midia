@@ -1,0 +1,80 @@
+{
+ "data": "2026-11-12",
+ "posts": [
+  {
+   "post": 1,
+   "horario": "14:00",
+   "cta": "Looks pro churrasquinho de domingo ☀️",
+   "fotos": [
+    {
+     "arquivo": "p1a.jpg",
+     "produto": "46957304505",
+     "num": "1",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p1b.jpg",
+     "produto": "21798890887",
+     "num": "2",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p1c.jpg",
+     "produto": "41759522157",
+     "num": "3",
+     "codigo": ""
+    }
+   ]
+  },
+  {
+   "post": 2,
+   "horario": "18:00",
+   "cta": "Top 3 vestidos curtos da Shopee ✨",
+   "fotos": [
+    {
+     "arquivo": "p2a.jpg",
+     "produto": "45252847496",
+     "num": "1",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p2b.jpg",
+     "produto": "23598180383",
+     "num": "2",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p2c.jpg",
+     "produto": "58267637144",
+     "num": "3",
+     "codigo": ""
+    }
+   ]
+  },
+  {
+   "post": 3,
+   "horario": "20:30",
+   "cta": "Qual blusinha você usaria: 1, 2 ou 3? 🤔",
+   "fotos": [
+    {
+     "arquivo": "p3a.jpg",
+     "produto": "19598983756",
+     "num": "1",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p3b.jpg",
+     "produto": "22794283905",
+     "num": "2",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p3c.jpg",
+     "produto": "58265486357",
+     "num": "3",
+     "codigo": ""
+    }
+   ]
+  }
+ ]
+}
