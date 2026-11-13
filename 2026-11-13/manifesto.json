@@ -1,0 +1,80 @@
+{
+ "data": "2026-11-13",
+ "posts": [
+  {
+   "post": 1,
+   "horario": "12:00",
+   "cta": "Top 3 calças pantalona da Shopee 👖",
+   "fotos": [
+    {
+     "arquivo": "p1a.jpg",
+     "produto": "18198165593",
+     "num": "1",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p1b.jpg",
+     "produto": "23194374313",
+     "num": "2",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p1c.jpg",
+     "produto": "40374940480",
+     "num": "3",
+     "codigo": ""
+    }
+   ]
+  },
+  {
+   "post": 2,
+   "horario": "18:00",
+   "cta": "Top 3 vestidos midi da Shopee ✨",
+   "fotos": [
+    {
+     "arquivo": "p2a.jpg",
+     "produto": "40276461675",
+     "num": "1",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p2b.jpg",
+     "produto": "22694186026",
+     "num": "2",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p2c.jpg",
+     "produto": "48359146201",
+     "num": "3",
+     "codigo": ""
+    }
+   ]
+  },
+  {
+   "post": 3,
+   "horario": "20:30",
+   "cta": "Qual saia midi você usaria: 1, 2 ou 3? 🤔",
+   "fotos": [
+    {
+     "arquivo": "p3a.jpg",
+     "produto": "22098412467",
+     "num": "1",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p3b.jpg",
+     "produto": "58206770421",
+     "num": "2",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p3c.jpg",
+     "produto": "23593043605",
+     "num": "3",
+     "codigo": ""
+    }
+   ]
+  }
+ ]
+}
