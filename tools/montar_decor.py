@@ -158,7 +158,7 @@ def codigo(img, W, H, cod, ig):
     tw = d.textlength(cod, font=f)
     x = W - W * 0.042 - tw
     y = H * {'ig': 0.045, 't7': 0.045}.get(ig, 0.15)
-    d.text((x, y), cod, font=f, fill=PRETO)
+    d.text((x, y), cod, font=f, fill=PRETO, stroke_width=max(2, round(W * 0.003)), stroke_fill=(255, 255, 255))
 
 def slide_final(img, W, H, linha, ig=False):
     """Bloco compacto: caixas arredondadas centralizadas, no maximo 74% da largura,

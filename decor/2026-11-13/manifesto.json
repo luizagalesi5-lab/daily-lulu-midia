@@ -1,0 +1,61 @@
+{
+ "data": "2026-11-13",
+ "posts": [
+  {
+   "post": 1,
+   "geral": "decor-1113-a-geral.jpg",
+   "capa": "Closet organizado gastando pouco ✨",
+   "final_tiktok": "Comenta GRUPO que eu te mando o link!",
+   "final_ig": "Link na bio!",
+   "produtos": [
+    {
+     "arquivo": "decor-1113-a1.jpg",
+     "produto": "23798178107",
+     "nome": "Colmeias organizadoras",
+     "codigo": "AGFKMPAHU"
+    },
+    {
+     "arquivo": "decor-1113-a2.jpg",
+     "produto": "41204151883",
+     "nome": "Cabides de veludo bege",
+     "codigo": "BHNXXLBFV"
+    },
+    {
+     "arquivo": "decor-1113-a3.jpg",
+     "produto": "58265871339",
+     "nome": "Caixa organizadora 94 L",
+     "codigo": "BAZQDTUDU"
+    }
+   ],
+   "capa_topo_ig": 0.2,
+   "capa_topo_t7": 0.19
+  },
+  {
+   "post": 2,
+   "geral": "decor-1113-b-geral.jpg",
+   "capa": "Transformei minha varanda gastando pouco 💛",
+   "final_tiktok": "Comenta GRUPO que eu te mando o link!",
+   "final_ig": "Link na bio!",
+   "produtos": [
+    {
+     "arquivo": "decor-1113-cb1.jpg",
+     "produto": "27923099161",
+     "nome": "Varal de luzes",
+     "codigo": "CFPBPXXTY"
+    },
+    {
+     "arquivo": "decor-1113-cb2.jpg",
+     "produto": "20199212564",
+     "nome": "Mesa bistrô retrátil",
+     "codigo": "CHWPEVWAB"
+    },
+    {
+     "arquivo": "decor-1113-cb3.jpg",
+     "produto": "23294336052",
+     "nome": "Vaso + plantas pendentes",
+     "codigo": "BRWTKZCGA"
+    }
+   ]
+  }
+ ]
+}
