@@ -1,0 +1,59 @@
+{
+ "data": "2026-11-15",
+ "posts": [
+  {
+   "post": 1,
+   "geral": "decor-1115-a-geral.jpg",
+   "capa": "Meu cantinho das plantas gastando pouco 🌿",
+   "final_tiktok": "Comenta GRUPO que eu te mando o link!",
+   "final_ig": "Link na bio!",
+   "produtos": [
+    {
+     "arquivo": "decor-1115-a1.jpg",
+     "produto": "23494318793",
+     "nome": "Suporte de macramê",
+     "codigo": "AAEAHQFWT"
+    },
+    {
+     "arquivo": "decor-1115-a2.jpg",
+     "produto": "22594192134",
+     "nome": "Kit 3 vasinhos com suporte",
+     "codigo": "CHWXRQFXN"
+    },
+    {
+     "arquivo": "decor-1115-a3.jpg",
+     "produto": "23994800465",
+     "nome": "Vaso autoirrigável",
+     "codigo": "BUHJXVPYE"
+    }
+   ]
+  },
+  {
+   "post": 2,
+   "geral": "decor-1115-b-geral.jpg",
+   "capa": "Montei meu cantinho da beleza ✨",
+   "final_tiktok": "Comenta GRUPO que eu te mando o link!",
+   "final_ig": "Link na bio!",
+   "produtos": [
+    {
+     "arquivo": "decor-1115-b1.jpg",
+     "produto": "18699185302",
+     "nome": "Espelho de mesa com LED",
+     "codigo": "ARDGDLSQW"
+    },
+    {
+     "arquivo": "decor-1115-b2.jpg",
+     "produto": "47810770730",
+     "nome": "Organizador de acrílico",
+     "codigo": "BKWKNVXCD"
+    },
+    {
+     "arquivo": "decor-1115-b3.jpg",
+     "produto": "22494858276",
+     "nome": "Cadeira pétala",
+     "codigo": "BGPTRZTPQ"
+    }
+   ]
+  }
+ ]
+}
