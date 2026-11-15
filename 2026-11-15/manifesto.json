@@ -10,19 +10,19 @@
      "arquivo": "p1a.jpg",
      "produto": "22699364858",
      "num": "1",
-     "codigo": ""
+     "codigo": "APTERCMKM"
     },
     {
      "arquivo": "p1b.jpg",
      "produto": "56607637635",
      "num": "2",
-     "codigo": ""
+     "codigo": "AUKPQAKVD"
     },
     {
      "arquivo": "p1c.jpg",
      "produto": "58265407375",
      "num": "3",
-     "codigo": ""
+     "codigo": "CCTRLGJCA"
     }
    ]
   },
@@ -35,19 +35,19 @@
      "arquivo": "p2a.jpg",
      "produto": "52353299444",
      "num": "1",
-     "codigo": ""
+     "codigo": "AAQXQAKUL"
     },
     {
      "arquivo": "p2b.jpg",
      "produto": "22597332044",
      "num": "2",
-     "codigo": ""
+     "codigo": "AXFSQSZVK"
     },
     {
      "arquivo": "p2c.jpg",
      "produto": "58202677086",
      "num": "3",
-     "codigo": ""
+     "codigo": "AKAVSEPKF"
     }
    ]
   },
@@ -58,21 +58,21 @@
    "fotos": [
     {
      "arquivo": "p3a.jpg",
-     "produto": "23499356799",
+     "produto": "58265462326",
      "num": "1",
-     "codigo": ""
+     "codigo": "ABPAPDBXL"
     },
     {
      "arquivo": "p3b.jpg",
      "produto": "44755010927",
      "num": "2",
-     "codigo": ""
+     "codigo": "BUUGEFTTM"
     },
     {
      "arquivo": "p3c.jpg",
-     "produto": "58265462326",
+     "produto": "23499356799",
      "num": "3",
-     "codigo": ""
+     "codigo": "AYRKSUUPC"
     }
    ]
   }
