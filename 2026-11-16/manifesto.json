@@ -1,0 +1,80 @@
+{
+ "data": "2026-11-16",
+ "posts": [
+  {
+   "post": 1,
+   "horario": "16:00",
+   "cta": "Parece Zara mas é da Shopee ✨",
+   "fotos": [
+    {
+     "arquivo": "p1a.jpg",
+     "produto": "47002972394",
+     "num": "1",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p1b.jpg",
+     "produto": "45205623612",
+     "num": "2",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p1c.jpg",
+     "produto": "58205907717",
+     "num": "3",
+     "codigo": ""
+    }
+   ]
+  },
+  {
+   "post": 2,
+   "horario": "18:00",
+   "cta": "Conjuntos da Shopee pro verão inteiro ☀️",
+   "fotos": [
+    {
+     "arquivo": "p2a.jpg",
+     "produto": "23994849185",
+     "num": "1",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p2b.jpg",
+     "produto": "58268154411",
+     "num": "2",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p2c.jpg",
+     "produto": "58206441414",
+     "num": "3",
+     "codigo": ""
+    }
+   ]
+  },
+  {
+   "post": 3,
+   "horario": "20:30",
+   "cta": "Qual vestidinho você usaria: 1, 2 ou 3? 🤔",
+   "fotos": [
+    {
+     "arquivo": "p3a.jpg",
+     "produto": "22499177992",
+     "num": "1",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p3b.jpg",
+     "produto": "24641283798",
+     "num": "2",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p3c.jpg",
+     "produto": "23998828343",
+     "num": "3",
+     "codigo": ""
+    }
+   ]
+  }
+ ]
+}
