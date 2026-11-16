@@ -1,0 +1,59 @@
+{
+ "data": "2026-11-16",
+ "posts": [
+  {
+   "post": 1,
+   "geral": "decor-1116-a-geral.jpg",
+   "capa": "Área gourmet linda gastando pouco 🔥",
+   "final_tiktok": "Comenta GRUPO que eu te mando o link!",
+   "final_ig": "Link na bio!",
+   "produtos": [
+    {
+     "arquivo": "decor-1116-a1.jpg",
+     "produto": "23896147033",
+     "nome": "Kit 3 pendentes gota",
+     "codigo": "BGQLNWCKH"
+    },
+    {
+     "arquivo": "decor-1116-a2.jpg",
+     "produto": "58204989689",
+     "nome": "Placa Cantinho do Churrasco",
+     "codigo": "AEJVDWKNS"
+    },
+    {
+     "arquivo": "decor-1116-a3.jpg",
+     "produto": "23198863397",
+     "nome": "Banqueta de fibra",
+     "codigo": "BMRQENZUR"
+    }
+   ]
+  },
+  {
+   "post": 2,
+   "geral": "decor-1116-b-geral.jpg",
+   "capa": "Quarto aconchegante gastando pouco 🤎",
+   "final_tiktok": "Comenta GRUPO que eu te mando o link!",
+   "final_ig": "Link na bio!",
+   "produtos": [
+    {
+     "arquivo": "decor-1116-b1.jpg",
+     "produto": "19259956668",
+     "nome": "Kit 2 abajures",
+     "codigo": "BKHKTCASR"
+    },
+    {
+     "arquivo": "decor-1116-b2.jpg",
+     "produto": "58266396655",
+     "nome": "Kit 2 mesas de cabeceira",
+     "codigo": "BAAKYQUNA"
+    },
+    {
+     "arquivo": "decor-1116-b3.jpg",
+     "produto": "22694309852",
+     "nome": "Kit 2 mantas",
+     "codigo": "CHUVCGMLA"
+    }
+   ]
+  }
+ ]
+}
