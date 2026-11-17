@@ -1,0 +1,59 @@
+{
+ "data": "2026-11-17",
+ "posts": [
+  {
+   "post": 1,
+   "geral": "decor-1117-a-geral.jpg",
+   "capa": "Banheiro de luxo gastando pouco ✨",
+   "final_tiktok": "Comenta GRUPO que eu te mando o link!",
+   "final_ig": "Link na bio!",
+   "produtos": [
+    {
+     "arquivo": "decor-1117-a1.jpg",
+     "produto": "27526106274",
+     "nome": "Kit lavabo luxo",
+     "codigo": "BKWTZNDCV"
+    },
+    {
+     "arquivo": "decor-1117-a2.jpg",
+     "produto": "20299321793",
+     "nome": "Suporte de shampoo",
+     "codigo": "BLVFJXHQE"
+    },
+    {
+     "arquivo": "decor-1117-a3.jpg",
+     "produto": "58258071799",
+     "nome": "Kit banheiro 5 peças",
+     "codigo": "BGATWJGTN"
+    }
+   ]
+  },
+  {
+   "post": 2,
+   "geral": "decor-1117-b-geral.jpg",
+   "capa": "Quarto de menina com borboletas 🦋",
+   "final_tiktok": "Comenta GRUPO que eu te mando o link!",
+   "final_ig": "Link na bio!",
+   "produtos": [
+    {
+     "arquivo": "decor-1117-b1.jpg",
+     "produto": "58200991581",
+     "nome": "Kit 3 nichos borboleta",
+     "codigo": "BYZTXDFXB"
+    },
+    {
+     "arquivo": "decor-1117-b2.jpg",
+     "produto": "23598375988",
+     "nome": "Cabeceira estofada",
+     "codigo": "BAMRRKUJL"
+    },
+    {
+     "arquivo": "decor-1117-b3.jpg",
+     "produto": "20045666194",
+     "nome": "Luminária borboleta",
+     "codigo": "ASNQVRSQL"
+    }
+   ]
+  }
+ ]
+}
