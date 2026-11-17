@@ -1,0 +1,80 @@
+{
+ "data": "2026-11-17",
+ "posts": [
+  {
+   "post": 1,
+   "horario": "12:00",
+   "cta": "Blusinhas delicadas que parecem de marca 🎀",
+   "fotos": [
+    {
+     "arquivo": "p1a.jpg",
+     "produto": "22899793993",
+     "num": "1",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p1b.jpg",
+     "produto": "18238164062",
+     "num": "2",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p1c.jpg",
+     "produto": "58255178604",
+     "num": "3",
+     "codigo": ""
+    }
+   ]
+  },
+  {
+   "post": 2,
+   "horario": "18:00",
+   "cta": "Saias de cetim que vestem muito bem ✨",
+   "fotos": [
+    {
+     "arquivo": "p2a.jpg",
+     "produto": "22894511423",
+     "num": "1",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p2b.jpg",
+     "produto": "58261401038",
+     "num": "2",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p2c.jpg",
+     "produto": "56258649442",
+     "num": "3",
+     "codigo": ""
+    }
+   ]
+  },
+  {
+   "post": 3,
+   "horario": "20:30",
+   "cta": "Vestidos midi pro almoço de família 🌸",
+   "fotos": [
+    {
+     "arquivo": "p3a.jpg",
+     "produto": "22393509865",
+     "num": "1",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p3b.jpg",
+     "produto": "46109198939",
+     "num": "2",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p3c.jpg",
+     "produto": "23693937985",
+     "num": "3",
+     "codigo": ""
+    }
+   ]
+  }
+ ]
+}
