@@ -1,0 +1,59 @@
+{
+ "data": "2026-11-18",
+ "posts": [
+  {
+   "post": 1,
+   "geral": "decor-1118-a-geral.jpg",
+   "capa": "Sala de jantar aconchegante gastando pouco 🍽️",
+   "final_tiktok": "Comenta GRUPO que eu te mando o link!",
+   "final_ig": "Link na bio!",
+   "produtos": [
+    {
+     "arquivo": "decor-1118-a1.jpg",
+     "produto": "23893612928",
+     "nome": "Kit 2 pendentes de madeira",
+     "codigo": "AQCSFGVME"
+    },
+    {
+     "arquivo": "decor-1118-a2.jpg",
+     "produto": "58204575079",
+     "nome": "Jogo americano de couro",
+     "codigo": "ALXUMVGDV"
+    },
+    {
+     "arquivo": "decor-1118-a3.jpg",
+     "produto": "23494515313",
+     "nome": "Centro de mesa",
+     "codigo": "BZXNLLBTX"
+    }
+   ]
+  },
+  {
+   "post": 2,
+   "geral": "decor-1118-b-geral.jpg",
+   "capa": "Parede da sala linda gastando pouco ✨",
+   "final_tiktok": "Comenta GRUPO que eu te mando o link!",
+   "final_ig": "Link na bio!",
+   "produtos": [
+    {
+     "arquivo": "decor-1118-b1.jpg",
+     "produto": "41672302868",
+     "nome": "Espelho de parede",
+     "codigo": "BFRGHLZCM"
+    },
+    {
+     "arquivo": "decor-1118-b2.jpg",
+     "produto": "22898006691",
+     "nome": "Kit 3 quadros",
+     "codigo": "AUWVHPJAM"
+    },
+    {
+     "arquivo": "decor-1118-b3.jpg",
+     "produto": "23598684515",
+     "nome": "Kit 2 arandelas",
+     "codigo": "AABPJPAYL"
+    }
+   ]
+  }
+ ]
+}
