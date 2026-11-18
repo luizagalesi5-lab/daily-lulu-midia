@@ -1,0 +1,80 @@
+{
+ "data": "2026-11-18",
+ "posts": [
+  {
+   "post": 1,
+   "horario": "19:00",
+   "cta": "Conjuntinhos de saia midi que parecem de marca ✨",
+   "fotos": [
+    {
+     "arquivo": "p1a.jpg",
+     "produto": "28641019304",
+     "num": "1",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p1b.jpg",
+     "produto": "41227876227",
+     "num": "2",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p1c.jpg",
+     "produto": "22299217807",
+     "num": "3",
+     "codigo": ""
+    }
+   ]
+  },
+  {
+   "post": 2,
+   "horario": "20:30",
+   "cta": "Conjuntos de linho pro verão inteiro 🤍",
+   "fotos": [
+    {
+     "arquivo": "p2a.jpg",
+     "produto": "40422336474",
+     "num": "1",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p2b.jpg",
+     "produto": "18398547330",
+     "num": "2",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p2c.jpg",
+     "produto": "56552319707",
+     "num": "3",
+     "codigo": ""
+    }
+   ]
+  },
+  {
+   "post": 3,
+   "horario": "21:30",
+   "cta": "Qual macaquinho você usaria: 1, 2 ou 3? 🎀",
+   "fotos": [
+    {
+     "arquivo": "p3a.jpg",
+     "produto": "23499163266",
+     "num": "1",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p3b.jpg",
+     "produto": "24946888508",
+     "num": "2",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p3c.jpg",
+     "produto": "22993681087",
+     "num": "3",
+     "codigo": ""
+    }
+   ]
+  }
+ ]
+}
