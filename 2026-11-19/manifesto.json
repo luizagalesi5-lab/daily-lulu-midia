@@ -10,19 +10,19 @@
      "arquivo": "p1a.jpg",
      "produto": "55504353904",
      "num": "1",
-     "codigo": ""
+     "codigo": "CCTRMHXAW"
     },
     {
      "arquivo": "p1b.jpg",
      "produto": "22898484273",
      "num": "2",
-     "codigo": ""
+     "codigo": "CKGGJMDFL"
     },
     {
      "arquivo": "p1c.jpg",
      "produto": "58200683665",
      "num": "3",
-     "codigo": ""
+     "codigo": "CFZQMQZTP"
     }
    ]
   },
@@ -35,19 +35,19 @@
      "arquivo": "p2a.jpg",
      "produto": "58253084901",
      "num": "1",
-     "codigo": ""
+     "codigo": "CHWPGKJTD"
     },
     {
      "arquivo": "p2b.jpg",
      "produto": "58251932219",
      "num": "2",
-     "codigo": ""
+     "codigo": "AVTNPVDJJ"
     },
     {
      "arquivo": "p2c.jpg",
      "produto": "22093908792",
      "num": "3",
-     "codigo": ""
+     "codigo": "AWGNKWHPU"
     }
    ]
   },
@@ -58,21 +58,21 @@
    "fotos": [
     {
      "arquivo": "p3a.jpg",
-     "produto": "58202318092",
+     "produto": "22393101105",
      "num": "1",
-     "codigo": ""
+     "codigo": "CCGBJJUGM"
     },
     {
      "arquivo": "p3b.jpg",
-     "produto": "22393101105",
+     "produto": "58202318092",
      "num": "2",
-     "codigo": ""
+     "codigo": "ABBUXNARR"
     },
     {
      "arquivo": "p3c.jpg",
      "produto": "22592624284",
      "num": "3",
-     "codigo": ""
+     "codigo": "CHWXSRWZH"
     }
    ]
   }
