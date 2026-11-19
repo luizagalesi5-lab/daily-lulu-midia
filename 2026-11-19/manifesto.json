@@ -1,0 +1,80 @@
+{
+ "data": "2026-11-19",
+ "posts": [
+  {
+   "post": 1,
+   "horario": "15:00",
+   "cta": "Vestidos longos floridos que parecem de marca 🌸",
+   "fotos": [
+    {
+     "arquivo": "p1a.jpg",
+     "produto": "55504353904",
+     "num": "1",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p1b.jpg",
+     "produto": "22898484273",
+     "num": "2",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p1c.jpg",
+     "produto": "58200683665",
+     "num": "3",
+     "codigo": ""
+    }
+   ]
+  },
+  {
+   "post": 2,
+   "horario": "18:00",
+   "cta": "Looks pras festas de fim de ano ✨",
+   "fotos": [
+    {
+     "arquivo": "p2a.jpg",
+     "produto": "58253084901",
+     "num": "1",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p2b.jpg",
+     "produto": "58251932219",
+     "num": "2",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p2c.jpg",
+     "produto": "22093908792",
+     "num": "3",
+     "codigo": ""
+    }
+   ]
+  },
+  {
+   "post": 3,
+   "horario": "20:30",
+   "cta": "Vestido branco pro Réveillon: qual você usaria? 🤍",
+   "fotos": [
+    {
+     "arquivo": "p3a.jpg",
+     "produto": "58202318092",
+     "num": "1",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p3b.jpg",
+     "produto": "22393101105",
+     "num": "2",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p3c.jpg",
+     "produto": "22592624284",
+     "num": "3",
+     "codigo": ""
+    }
+   ]
+  }
+ ]
+}
