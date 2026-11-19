@@ -1,9 +1,59 @@
-{"data":"2026-11-19","posts":[
-{"post":1,"geral":"decor-1119-a-geral.jpg","capa":"Sala pronta pro Natal gastando pouco 🎄","final_tiktok":"Comenta GRUPO que eu te mando o link!","final_ig":"Link na bio!","produtos":[
-{"arquivo":"decor-1119-a1.jpg","produto":"22093433759","nome":"Pisca pisca 100 LEDs","codigo":""},
-{"arquivo":"decor-1119-a2.jpg","produto":"20761864925","nome":"Festão de Natal 2,7m","codigo":""},
-{"arquivo":"decor-1119-a3.jpg","produto":"19199382343","nome":"Cortina de LED luas e estrelas","codigo":""}]},
-{"post":2,"geral":"decor-1119-b-geral.jpg","capa":"Cozinha charmosa gastando pouco ✨","final_tiktok":"Comenta GRUPO que eu te mando o link!","final_ig":"Link na bio!","produtos":[
-{"arquivo":"decor-1119-b1.jpg","produto":"23893666658","nome":"Fruteira 2 andares","codigo":""},
-{"arquivo":"decor-1119-b2.jpg","produto":"23698179357","nome":"Porta-temperos giratório","codigo":""},
-{"arquivo":"decor-1119-b3.jpg","produto":"58267485793","nome":"Potes herméticos de vidro","codigo":""}]}]}
+{
+ "data": "2026-11-19",
+ "posts": [
+  {
+   "post": 1,
+   "geral": "decor-1119-a-geral.jpg",
+   "capa": "Sala pronta pro Natal gastando pouco 🎄",
+   "final_tiktok": "Comenta GRUPO que eu te mando o link!",
+   "final_ig": "Link na bio!",
+   "produtos": [
+    {
+     "arquivo": "decor-1119-a1.jpg",
+     "produto": "22093433759",
+     "nome": "Pisca pisca 100 LEDs",
+     "codigo": "BZVUHGSCR"
+    },
+    {
+     "arquivo": "decor-1119-a2.jpg",
+     "produto": "20761864925",
+     "nome": "Festão de Natal 2,7m",
+     "codigo": "BANACJDSU"
+    },
+    {
+     "arquivo": "decor-1119-a3.jpg",
+     "produto": "19199382343",
+     "nome": "Cortina de LED luas e estrelas",
+     "codigo": "APGRWALWH"
+    }
+   ]
+  },
+  {
+   "post": 2,
+   "geral": "decor-1119-b-geral.jpg",
+   "capa": "Cozinha charmosa gastando pouco ✨",
+   "final_tiktok": "Comenta GRUPO que eu te mando o link!",
+   "final_ig": "Link na bio!",
+   "produtos": [
+    {
+     "arquivo": "decor-1119-b1.jpg",
+     "produto": "23893666658",
+     "nome": "Fruteira 2 andares",
+     "codigo": "ACWZNXUXG"
+    },
+    {
+     "arquivo": "decor-1119-b2.jpg",
+     "produto": "23698179357",
+     "nome": "Porta-temperos giratório",
+     "codigo": "BGQCDHWSU"
+    },
+    {
+     "arquivo": "decor-1119-b3.jpg",
+     "produto": "58267485793",
+     "nome": "Potes herméticos de vidro",
+     "codigo": "BRAAFNAGV"
+    }
+   ]
+  }
+ ]
+}
