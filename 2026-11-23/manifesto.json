@@ -1,0 +1,80 @@
+{
+ "data": "2026-11-23",
+ "posts": [
+  {
+   "post": 1,
+   "horario": "12:00",
+   "cta": "Blusinhas delicadas que parecem de marca 🎀",
+   "fotos": [
+    {
+     "arquivo": "p1a.jpg",
+     "produto": "23693852757",
+     "num": "1",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p1b.jpg",
+     "produto": "43267045904",
+     "num": "2",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p1c.jpg",
+     "produto": "22894691863",
+     "num": "3",
+     "codigo": ""
+    }
+   ]
+  },
+  {
+   "post": 2,
+   "horario": "18:00",
+   "cta": "Calças pantalona pro verão ✨",
+   "fotos": [
+    {
+     "arquivo": "p2a.jpg",
+     "produto": "18099237010",
+     "num": "1",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p2b.jpg",
+     "produto": "20399227813",
+     "num": "2",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p2c.jpg",
+     "produto": "23494431476",
+     "num": "3",
+     "codigo": ""
+    }
+   ]
+  },
+  {
+   "post": 3,
+   "horario": "20:30",
+   "cta": "Achadinhos pra salvar antes da Black Friday 🛒",
+   "fotos": [
+    {
+     "arquivo": "p3a.jpg",
+     "produto": "49050205364",
+     "num": "1",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p3b.jpg",
+     "produto": "20998008033",
+     "num": "2",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p3c.jpg",
+     "produto": "22194196932",
+     "num": "3",
+     "codigo": ""
+    }
+   ]
+  }
+ ]
+}
