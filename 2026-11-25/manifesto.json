@@ -1,0 +1,80 @@
+{
+ "data": "2026-11-25",
+ "posts": [
+  {
+   "post": 1,
+   "horario": "12:00",
+   "cta": "Shorts de alfaiataria e linho pro verão ☀️",
+   "fotos": [
+    {
+     "arquivo": "p1a.jpg",
+     "produto": "23593481508",
+     "num": "1",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p1b.jpg",
+     "produto": "23997604933",
+     "num": "2",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p1c.jpg",
+     "produto": "21299705903",
+     "num": "3",
+     "codigo": ""
+    }
+   ]
+  },
+  {
+   "post": 2,
+   "horario": "18:00",
+   "cta": "Blusinhas pras festas de fim de ano ✨",
+   "fotos": [
+    {
+     "arquivo": "p2a.jpg",
+     "produto": "58265404477",
+     "num": "1",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p2b.jpg",
+     "produto": "23296635826",
+     "num": "2",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p2c.jpg",
+     "produto": "23498090315",
+     "num": "3",
+     "codigo": ""
+    }
+   ]
+  },
+  {
+   "post": 3,
+   "horario": "20:30",
+   "cta": "Vestidinhos curtos pro calor 🌸",
+   "fotos": [
+    {
+     "arquivo": "p3a.jpg",
+     "produto": "41165052677",
+     "num": "1",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p3b.jpg",
+     "produto": "19199677961",
+     "num": "2",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p3c.jpg",
+     "produto": "23297775944",
+     "num": "3",
+     "codigo": ""
+    }
+   ]
+  }
+ ]
+}

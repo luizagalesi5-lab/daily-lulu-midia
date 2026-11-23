@@ -1,0 +1,80 @@
+{
+ "data": "2026-11-24",
+ "posts": [
+  {
+   "post": 1,
+   "horario": "12:00",
+   "cta": "Saias que vestem muito bem 🤎",
+   "fotos": [
+    {
+     "arquivo": "p1a.jpg",
+     "produto": "9776879801",
+     "num": "1",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p1b.jpg",
+     "produto": "58264477451",
+     "num": "2",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p1c.jpg",
+     "produto": "58218511367",
+     "num": "3",
+     "codigo": ""
+    }
+   ]
+  },
+  {
+   "post": 2,
+   "horario": "18:00",
+   "cta": "Vestido vermelho pro Natal: qual você usaria? ❤️",
+   "fotos": [
+    {
+     "arquivo": "p2a.jpg",
+     "produto": "44268937684",
+     "num": "1",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p2b.jpg",
+     "produto": "58265680557",
+     "num": "2",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p2c.jpg",
+     "produto": "58267919493",
+     "num": "3",
+     "codigo": ""
+    }
+   ]
+  },
+  {
+   "post": 3,
+   "horario": "20:30",
+   "cta": "Conjuntinhos que parecem de marca ✨",
+   "fotos": [
+    {
+     "arquivo": "p3a.jpg",
+     "produto": "23393169125",
+     "num": "1",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p3b.jpg",
+     "produto": "53266360618",
+     "num": "2",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p3c.jpg",
+     "produto": "43067666837",
+     "num": "3",
+     "codigo": ""
+    }
+   ]
+  }
+ ]
+}
