@@ -1,9 +1,59 @@
-{"data":"2026-11-23","posts":[
-{"post":1,"geral":"decor-1123-a-geral.jpg","capa":"Mesa de Natal linda gastando pouco 🎄","final_tiktok":"Comenta GRUPO que eu te mando o link!","final_ig":"Link na bio!","produtos":[
-{"arquivo":"decor-1123-a1.jpg","produto":"23393543196","nome":"Toalha de mesa natalina","codigo":""},
-{"arquivo":"decor-1123-a2.jpg","produto":"23399163594","nome":"Sousplat redondo","codigo":""},
-{"arquivo":"decor-1123-a3.jpg","produto":"24347775263","nome":"Tigelas de sobremesa de Natal","codigo":""}]},
-{"post":2,"geral":"decor-1123-b-geral.jpg","capa":"Cantinho do café dos sonhos gastando pouco ☕","final_tiktok":"Comenta GRUPO que eu te mando o link!","final_ig":"Link na bio!","produtos":[
-{"arquivo":"decor-1123-b1.jpg","produto":"58205125585","nome":"Letreiro Cantinho do Café","codigo":""},
-{"arquivo":"decor-1123-b2.jpg","produto":"23493175277","nome":"Porta-xícaras suspenso","codigo":""},
-{"arquivo":"decor-1123-b3.jpg","produto":"58254434728","nome":"Porta-cápsulas de acrílico","codigo":""}]}]}
+{
+ "data": "2026-11-23",
+ "posts": [
+  {
+   "post": 1,
+   "geral": "decor-1123-a-geral.jpg",
+   "capa": "Mesa de Natal linda gastando pouco 🎄",
+   "final_tiktok": "Comenta GRUPO que eu te mando o link!",
+   "final_ig": "Link na bio!",
+   "produtos": [
+    {
+     "arquivo": "decor-1123-a1.jpg",
+     "produto": "23393543196",
+     "nome": "Toalha de mesa natalina",
+     "codigo": "BSXRXWKCZ"
+    },
+    {
+     "arquivo": "decor-1123-a2.jpg",
+     "produto": "23399163594",
+     "nome": "Sousplat redondo",
+     "codigo": "BHNPPUAGJ"
+    },
+    {
+     "arquivo": "decor-1123-a3.jpg",
+     "produto": "24347775263",
+     "nome": "Tigelas de sobremesa de Natal",
+     "codigo": "BRWTNPPQZ"
+    }
+   ]
+  },
+  {
+   "post": 2,
+   "geral": "decor-1123-b-geral.jpg",
+   "capa": "Cantinho do café dos sonhos gastando pouco ☕",
+   "final_tiktok": "Comenta GRUPO que eu te mando o link!",
+   "final_ig": "Link na bio!",
+   "produtos": [
+    {
+     "arquivo": "decor-1123-b1.jpg",
+     "produto": "58205125585",
+     "nome": "Letreiro Cantinho do Café",
+     "codigo": "ASZWQBCZR"
+    },
+    {
+     "arquivo": "decor-1123-b2.jpg",
+     "produto": "23493175277",
+     "nome": "Porta-xícaras suspenso",
+     "codigo": "ARZRBHJJF"
+    },
+    {
+     "arquivo": "decor-1123-b3.jpg",
+     "produto": "58254434728",
+     "nome": "Porta-cápsulas de acrílico",
+     "codigo": "CGLWFJNVP"
+    }
+   ]
+  }
+ ]
+}
