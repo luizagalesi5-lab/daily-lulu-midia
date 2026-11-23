@@ -1,0 +1,59 @@
+{
+ "data": "2026-11-24",
+ "posts": [
+  {
+   "post": 1,
+   "geral": "decor-1124-a-geral.jpg",
+   "capa": "Árvore de Natal completa gastando pouco 🎄",
+   "final_tiktok": "Comenta GRUPO que eu te mando o link!",
+   "final_ig": "Link na bio!",
+   "produtos": [
+    {
+     "arquivo": "decor-1124-a1.jpg",
+     "produto": "23394192585",
+     "nome": "Kit bolas de Natal + estrela",
+     "codigo": ""
+    },
+    {
+     "arquivo": "decor-1124-a2.jpg",
+     "produto": "22998814700",
+     "nome": "Saia para árvore de Natal",
+     "codigo": ""
+    },
+    {
+     "arquivo": "decor-1124-a3.jpg",
+     "produto": "27345998596",
+     "nome": "Enfeites de acrílico espelhado",
+     "codigo": ""
+    }
+   ]
+  },
+  {
+   "post": 2,
+   "geral": "decor-1124-b-geral.jpg",
+   "capa": "Geladeira organizada gastando pouco ✨",
+   "final_tiktok": "Comenta GRUPO que eu te mando o link!",
+   "final_ig": "Link na bio!",
+   "produtos": [
+    {
+     "arquivo": "decor-1124-b1.jpg",
+     "produto": "40329026138",
+     "nome": "Organizadores de acrílico",
+     "codigo": ""
+    },
+    {
+     "arquivo": "decor-1124-b2.jpg",
+     "produto": "22594965206",
+     "nome": "Porta-ovos 4 andares",
+     "codigo": ""
+    },
+    {
+     "arquivo": "decor-1124-b3.jpg",
+     "produto": "23594192203",
+     "nome": "Organizador porta-latas",
+     "codigo": ""
+    }
+   ]
+  }
+ ]
+}

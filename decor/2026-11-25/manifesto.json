@@ -1,0 +1,59 @@
+{
+ "data": "2026-11-25",
+ "posts": [
+  {
+   "post": 1,
+   "geral": "decor-1125-a-geral.jpg",
+   "capa": "Porta de Natal linda gastando pouco 🎄",
+   "final_tiktok": "Comenta GRUPO que eu te mando o link!",
+   "final_ig": "Link na bio!",
+   "produtos": [
+    {
+     "arquivo": "decor-1125-a1.jpg",
+     "produto": "43983526897",
+     "nome": "Guirlanda Sagrada Família",
+     "codigo": ""
+    },
+    {
+     "arquivo": "decor-1125-a2.jpg",
+     "produto": "42622689736",
+     "nome": "Capacho natalino",
+     "codigo": ""
+    },
+    {
+     "arquivo": "decor-1125-a3.jpg",
+     "produto": "25098428816",
+     "nome": "Festão de Natal verde",
+     "codigo": ""
+    }
+   ]
+  },
+  {
+   "post": 2,
+   "geral": "decor-1125-b-geral.jpg",
+   "capa": "Varanda iluminada gastando pouco ✨",
+   "final_tiktok": "Comenta GRUPO que eu te mando o link!",
+   "final_ig": "Link na bio!",
+   "produtos": [
+    {
+     "arquivo": "decor-1125-b1.jpg",
+     "produto": "23892379352",
+     "nome": "Luminária solar de parede",
+     "codigo": ""
+    },
+    {
+     "arquivo": "decor-1125-b2.jpg",
+     "produto": "58218453265",
+     "nome": "Fio de fada solar",
+     "codigo": ""
+    },
+    {
+     "arquivo": "decor-1125-b3.jpg",
+     "produto": "22798832645",
+     "nome": "Vaso com planta pendente",
+     "codigo": ""
+    }
+   ]
+  }
+ ]
+}
