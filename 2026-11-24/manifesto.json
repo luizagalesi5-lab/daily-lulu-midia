@@ -10,19 +10,19 @@
      "arquivo": "p1a.jpg",
      "produto": "9776879801",
      "num": "1",
-     "codigo": ""
+     "codigo": "CHKSBALRH"
     },
     {
      "arquivo": "p1b.jpg",
      "produto": "58264477451",
      "num": "2",
-     "codigo": ""
+     "codigo": "BGPTUCNHM"
     },
     {
      "arquivo": "p1c.jpg",
      "produto": "58218511367",
      "num": "3",
-     "codigo": ""
+     "codigo": "BNRVVCFED"
     }
    ]
   },
@@ -32,22 +32,22 @@
    "cta": "Vestido vermelho pro Natal: qual você usaria? ❤️",
    "fotos": [
     {
+     "arquivo": "p2c.jpg",
+     "produto": "58267919493",
+     "num": "1",
+     "codigo": "ANSZEMKTN"
+    },
+    {
      "arquivo": "p2a.jpg",
      "produto": "44268937684",
-     "num": "1",
-     "codigo": ""
+     "num": "2",
+     "codigo": "AULGNSDHV"
     },
     {
      "arquivo": "p2b.jpg",
      "produto": "58265680557",
-     "num": "2",
-     "codigo": ""
-    },
-    {
-     "arquivo": "p2c.jpg",
-     "produto": "58267919493",
      "num": "3",
-     "codigo": ""
+     "codigo": "BRKMVXEJR"
     }
    ]
   },
@@ -60,19 +60,19 @@
      "arquivo": "p3a.jpg",
      "produto": "23393169125",
      "num": "1",
-     "codigo": ""
+     "codigo": "BGCNBKXUH"
     },
     {
      "arquivo": "p3b.jpg",
      "produto": "53266360618",
      "num": "2",
-     "codigo": ""
+     "codigo": "BKKWUVCMP"
     },
     {
      "arquivo": "p3c.jpg",
      "produto": "43067666837",
      "num": "3",
-     "codigo": ""
+     "codigo": "AGGCLSTMW"
     }
    ]
   }

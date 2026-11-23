@@ -3,26 +3,26 @@
  "posts": [
   {
    "post": 1,
-   "horario": "12:00",
+   "horario": "15:00",
    "cta": "Blusinhas delicadas que parecem de marca 🎀",
    "fotos": [
     {
-     "arquivo": "p1a.jpg",
-     "produto": "23693852757",
-     "num": "1",
-     "codigo": ""
-    },
-    {
      "arquivo": "p1b.jpg",
      "produto": "43267045904",
+     "num": "1",
+     "codigo": "CFPBSNPZB"
+    },
+    {
+     "arquivo": "p1a.jpg",
+     "produto": "23693852757",
      "num": "2",
-     "codigo": ""
+     "codigo": "BYLBGGBKY"
     },
     {
      "arquivo": "p1c.jpg",
      "produto": "22894691863",
      "num": "3",
-     "codigo": ""
+     "codigo": "ARDGFPMAL"
     }
    ]
   },
@@ -35,19 +35,19 @@
      "arquivo": "p2a.jpg",
      "produto": "18099237010",
      "num": "1",
-     "codigo": ""
+     "codigo": "BAYXKVFSE"
     },
     {
      "arquivo": "p2b.jpg",
      "produto": "20399227813",
      "num": "2",
-     "codigo": ""
+     "codigo": "ALWAKSWWQ"
     },
     {
      "arquivo": "p2c.jpg",
      "produto": "23494431476",
      "num": "3",
-     "codigo": ""
+     "codigo": "AAQXSDCFP"
     }
    ]
   },
@@ -60,19 +60,19 @@
      "arquivo": "p3a.jpg",
      "produto": "49050205364",
      "num": "1",
-     "codigo": ""
+     "codigo": "ALXUPBQXS"
     },
     {
      "arquivo": "p3b.jpg",
      "produto": "20998008033",
      "num": "2",
-     "codigo": ""
+     "codigo": "AVVREMFUR"
     },
     {
      "arquivo": "p3c.jpg",
      "produto": "22194196932",
      "num": "3",
-     "codigo": ""
+     "codigo": "AADRZLJNY"
     }
    ]
   }
