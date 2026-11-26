@@ -1,0 +1,80 @@
+{
+ "data": "2026-11-26",
+ "posts": [
+  {
+   "post": 1,
+   "horario": "12:00",
+   "cta": "Macacões elegantes pro fim de ano ❤️",
+   "fotos": [
+    {
+     "arquivo": "p1a.jpg",
+     "produto": "22398221331",
+     "num": "1",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p1b.jpg",
+     "produto": "58270837205",
+     "num": "2",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p1c.jpg",
+     "produto": "40831890862",
+     "num": "3",
+     "codigo": ""
+    }
+   ]
+  },
+  {
+   "post": 2,
+   "horario": "18:00",
+   "cta": "Tricô fresquinho pro verão 💛",
+   "fotos": [
+    {
+     "arquivo": "p2a.jpg",
+     "produto": "58205970755",
+     "num": "1",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p2b.jpg",
+     "produto": "23998398009",
+     "num": "2",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p2c.jpg",
+     "produto": "22893285610",
+     "num": "3",
+     "codigo": ""
+    }
+   ]
+  },
+  {
+   "post": 3,
+   "horario": "20:30",
+   "cta": "Top vestidos longos da Shopee 🌺",
+   "fotos": [
+    {
+     "arquivo": "p3a.jpg",
+     "produto": "58200744769",
+     "num": "1",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p3b.jpg",
+     "produto": "23098851484",
+     "num": "2",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p3c.jpg",
+     "produto": "58269984648",
+     "num": "3",
+     "codigo": ""
+    }
+   ]
+  }
+ ]
+}

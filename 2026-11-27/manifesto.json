@@ -1,0 +1,80 @@
+{
+ "data": "2026-11-27",
+ "posts": [
+  {
+   "post": 1,
+   "horario": "12:00",
+   "cta": "Calças wide leg mais vendidas da Shopee 🖤",
+   "fotos": [
+    {
+     "arquivo": "p1a.jpg",
+     "produto": "23098224139",
+     "num": "1",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p1b.jpg",
+     "produto": "18296936501",
+     "num": "2",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p1c.jpg",
+     "produto": "53407964030",
+     "num": "3",
+     "codigo": ""
+    }
+   ]
+  },
+  {
+   "post": 2,
+   "horario": "18:00",
+   "cta": "Vestidos longos pras festas de fim de ano ✨",
+   "fotos": [
+    {
+     "arquivo": "p2a.jpg",
+     "produto": "19797922299",
+     "num": "1",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p2b.jpg",
+     "produto": "23398077188",
+     "num": "2",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p2c.jpg",
+     "produto": "23699190124",
+     "num": "3",
+     "codigo": ""
+    }
+   ]
+  },
+  {
+   "post": 3,
+   "horario": "20:30",
+   "cta": "Blusinhas que parecem de marca 🤍",
+   "fotos": [
+    {
+     "arquivo": "p3a.jpg",
+     "produto": "20899867926",
+     "num": "1",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p3b.jpg",
+     "produto": "23797415940",
+     "num": "2",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p3c.jpg",
+     "produto": "58260076757",
+     "num": "3",
+     "codigo": ""
+    }
+   ]
+  }
+ ]
+}
