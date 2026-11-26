@@ -1,9 +1,59 @@
-{"data":"2026-11-26","posts":[
-{"post":1,"geral":"decor-1126-a-geral.jpg","capa":"Quarto clima de Natal gastando pouco 🎄","final_tiktok":"Comenta GRUPO que eu te mando o link!","final_ig":"Link na bio!","produtos":[
-{"arquivo":"decor-1126-a1.jpg","produto":"40135282729","nome":"Manta de Natal vermelha","codigo":""},
-{"arquivo":"decor-1126-a2.jpg","produto":"23397894904","nome":"Capas de almofada natalinas","codigo":""},
-{"arquivo":"decor-1126-a3.jpg","produto":"23298685164","nome":"Cortina de LED","codigo":""}]},
-{"post":2,"geral":"decor-1126-b-geral.jpg","capa":"Banheiro com cara de hotel gastando pouco ✨","final_tiktok":"Comenta GRUPO que eu te mando o link!","final_ig":"Link na bio!","produtos":[
-{"arquivo":"decor-1126-b1.jpg","produto":"56566083337","nome":"Kit lavabo âmbar","codigo":""},
-{"arquivo":"decor-1126-b2.jpg","produto":"53616416772","nome":"Toalhas terracota","codigo":""},
-{"arquivo":"decor-1126-b3.jpg","produto":"23599671693","nome":"Tapete de banheiro","codigo":""}]}]}
+{
+ "data": "2026-11-26",
+ "posts": [
+  {
+   "post": 1,
+   "geral": "decor-1126-a-geral.jpg",
+   "capa": "Quarto clima de Natal gastando pouco 🎄",
+   "final_tiktok": "Comenta GRUPO que eu te mando o link!",
+   "final_ig": "Link na bio!",
+   "produtos": [
+    {
+     "arquivo": "decor-1126-a1.jpg",
+     "produto": "40135282729",
+     "nome": "Manta de Natal vermelha",
+     "codigo": "BVQRCTDYA"
+    },
+    {
+     "arquivo": "decor-1126-a2.jpg",
+     "produto": "23397894904",
+     "nome": "Capas de almofada natalinas",
+     "codigo": "ANJENHCEC"
+    },
+    {
+     "arquivo": "decor-1126-a3.jpg",
+     "produto": "23298685164",
+     "nome": "Cortina de LED",
+     "codigo": "AQPXZWLFF"
+    }
+   ]
+  },
+  {
+   "post": 2,
+   "geral": "decor-1126-b-geral.jpg",
+   "capa": "Banheiro com cara de hotel gastando pouco ✨",
+   "final_tiktok": "Comenta GRUPO que eu te mando o link!",
+   "final_ig": "Link na bio!",
+   "produtos": [
+    {
+     "arquivo": "decor-1126-b1.jpg",
+     "produto": "56566083337",
+     "nome": "Kit lavabo âmbar",
+     "codigo": "BMRQGZCFY"
+    },
+    {
+     "arquivo": "decor-1126-b2.jpg",
+     "produto": "53616416772",
+     "nome": "Toalhas terracota",
+     "codigo": "AKBNRLYTG"
+    },
+    {
+     "arquivo": "decor-1126-b3.jpg",
+     "produto": "23599671693",
+     "nome": "Tapete de banheiro",
+     "codigo": "ABBUZDWBY"
+    }
+   ]
+  }
+ ]
+}
