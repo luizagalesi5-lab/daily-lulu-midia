@@ -1,0 +1,80 @@
+{
+ "data": "2026-11-28",
+ "posts": [
+  {
+   "post": 1,
+   "horario": "12:00",
+   "cta": "Vestidos midi que vestem muito bem 🍷",
+   "fotos": [
+    {
+     "arquivo": "p1a.jpg",
+     "produto": "58203784046",
+     "num": "1",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p1b.jpg",
+     "produto": "23093714142",
+     "num": "2",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p1c.jpg",
+     "produto": "45417039171",
+     "num": "3",
+     "codigo": ""
+    }
+   ]
+  },
+  {
+   "post": 2,
+   "horario": "18:00",
+   "cta": "Blusinhas ombro a ombro que parecem de marca 🤍",
+   "fotos": [
+    {
+     "arquivo": "p2a.jpg",
+     "produto": "22794448709",
+     "num": "1",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p2b.jpg",
+     "produto": "58110826332",
+     "num": "2",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p2c.jpg",
+     "produto": "23693006000",
+     "num": "3",
+     "codigo": ""
+    }
+   ]
+  },
+  {
+   "post": 3,
+   "horario": "20:30",
+   "cta": "Vestidinhos pra sair no sábado à noite ✨",
+   "fotos": [
+    {
+     "arquivo": "p3a.jpg",
+     "produto": "23594087525",
+     "num": "1",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p3b.jpg",
+     "produto": "26481895181",
+     "num": "2",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p3c.jpg",
+     "produto": "22994534837",
+     "num": "3",
+     "codigo": ""
+    }
+   ]
+  }
+ ]
+}

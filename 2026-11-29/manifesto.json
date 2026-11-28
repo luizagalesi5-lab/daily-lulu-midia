@@ -1,0 +1,80 @@
+{
+ "data": "2026-11-29",
+ "posts": [
+  {
+   "post": 1,
+   "horario": "12:00",
+   "cta": "Looks para um churrasquinho no domingo 🍖",
+   "fotos": [
+    {
+     "arquivo": "p1a.jpg",
+     "produto": "23093112020",
+     "num": "1",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p1b.jpg",
+     "produto": "23299187090",
+     "num": "2",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p1c.jpg",
+     "produto": "19598151724",
+     "num": "3",
+     "codigo": ""
+    }
+   ]
+  },
+  {
+   "post": 2,
+   "horario": "18:00",
+   "cta": "Conjuntos pro almoço de família 💚",
+   "fotos": [
+    {
+     "arquivo": "p2a.jpg",
+     "produto": "23392445076",
+     "num": "1",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p2b.jpg",
+     "produto": "22197724293",
+     "num": "2",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p2c.jpg",
+     "produto": "58209583212",
+     "num": "3",
+     "codigo": ""
+    }
+   ]
+  },
+  {
+   "post": 3,
+   "horario": "20:30",
+   "cta": "Top looks de domingo da Shopee 💜",
+   "fotos": [
+    {
+     "arquivo": "p3a.jpg",
+     "produto": "22994623978",
+     "num": "1",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p3b.jpg",
+     "produto": "21399500019",
+     "num": "2",
+     "codigo": ""
+    },
+    {
+     "arquivo": "p3c.jpg",
+     "produto": "23794367411",
+     "num": "3",
+     "codigo": ""
+    }
+   ]
+  }
+ ]
+}
