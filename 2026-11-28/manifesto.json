@@ -10,19 +10,19 @@
      "arquivo": "p1a.jpg",
      "produto": "58203784046",
      "num": "1",
-     "codigo": ""
+     "codigo": "BBVQTCMGM"
     },
     {
      "arquivo": "p1b.jpg",
      "produto": "23093714142",
      "num": "2",
-     "codigo": ""
+     "codigo": "AKAVVPTNU"
     },
     {
      "arquivo": "p1c.jpg",
      "produto": "45417039171",
      "num": "3",
-     "codigo": ""
+     "codigo": "BRAAHVRUW"
     }
    ]
   },
@@ -35,19 +35,19 @@
      "arquivo": "p2a.jpg",
      "produto": "22794448709",
      "num": "1",
-     "codigo": ""
-    },
-    {
-     "arquivo": "p2b.jpg",
-     "produto": "58110826332",
-     "num": "2",
-     "codigo": ""
+     "codigo": "BMTSXGASW"
     },
     {
      "arquivo": "p2c.jpg",
      "produto": "23693006000",
+     "num": "2",
+     "codigo": "BHNFEUEJN"
+    },
+    {
+     "arquivo": "p2b.jpg",
+     "produto": "58110826332",
      "num": "3",
-     "codigo": ""
+     "codigo": "CGYLKQHWY"
     }
    ]
   },
@@ -57,22 +57,22 @@
    "cta": "Vestidinhos pra sair no sábado à noite ✨",
    "fotos": [
     {
+     "arquivo": "p3c.jpg",
+     "produto": "22994534837",
+     "num": "1",
+     "codigo": "BGPTVKAAV"
+    },
+    {
      "arquivo": "p3a.jpg",
      "produto": "23594087525",
-     "num": "1",
-     "codigo": ""
+     "num": "2",
+     "codigo": "AHEFMBXGU"
     },
     {
      "arquivo": "p3b.jpg",
      "produto": "26481895181",
-     "num": "2",
-     "codigo": ""
-    },
-    {
-     "arquivo": "p3c.jpg",
-     "produto": "22994534837",
      "num": "3",
-     "codigo": ""
+     "codigo": "BYZUACURW"
     }
    ]
   }
